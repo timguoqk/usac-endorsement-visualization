@@ -4,7 +4,7 @@
     "name":"Heather Rosen",
     "position":"President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":60.2
   },
   {
@@ -12,7 +12,7 @@
     "name":"Morris Sarafian",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -20,7 +20,7 @@
     "name":"Devyani Rana",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -28,7 +28,7 @@
     "name":"Heather Hourdequin",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":51.8
   },
   {
@@ -36,7 +36,7 @@
     "name":"Denea Joseph",
     "position":"External Vice President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -44,7 +44,7 @@
     "name":"Zach Helder",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":50.6
   },
   {
@@ -52,7 +52,7 @@
     "name":"Kevin Casasola",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -60,7 +60,7 @@
     "name":"Trent Kajikawa",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":53
   },
   {
@@ -68,7 +68,7 @@
     "name":"Erineo Garcia",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -76,7 +76,7 @@
     "name":"Ruhi Patil",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":52.5
   },
   {
@@ -84,7 +84,7 @@
     "name":"Keytiana Hempstead",
     "position":"Transfer Student Representative",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -92,7 +92,7 @@
     "name":"J. Cesar Flores",
     "position":"Transfer Student Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -108,7 +108,7 @@
     "name":"Anais Leontine Amin",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -116,7 +116,7 @@
     "name":"Aaliya Khan",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -124,7 +124,7 @@
     "name":"Danny Siegel",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -132,7 +132,7 @@
     "name":"Aditi Agrawal",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -140,7 +140,7 @@
     "name":"Jaimeson Cortez",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -148,7 +148,7 @@
     "name":"Jason Banks Ergina",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -156,7 +156,7 @@
     "name":"Matt Hezlep",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -172,7 +172,7 @@
     "name":"Sunny Singh",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -180,7 +180,7 @@
     "name":"Miriam Rodriguez",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -188,7 +188,7 @@
     "name":"Negeen Sadeghi-Mohaved",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -204,7 +204,7 @@
     "name":"Harwind Lasher",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -220,7 +220,7 @@
     "name":"Aurelia Friedman",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -228,7 +228,7 @@
     "name":"Angel Garfio",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -236,7 +236,7 @@
     "name":"Janay Williams",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -252,7 +252,7 @@
     "name":"Jazz Kiang",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -260,7 +260,7 @@
     "name":"Alex Mercier",
     "position":"Facilities Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -276,7 +276,7 @@
     "name":"Teri Nguyen",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -284,7 +284,7 @@
     "name":"Winnie Galbadores",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -300,7 +300,7 @@
     "name":"Gabriel Guttierez",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -308,7 +308,7 @@
     "name":"Erineo Garcia",
     "position":"General Representative",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -316,7 +316,7 @@
     "name":"Kevin Patterson",
     "position":"General Representative",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -324,7 +324,7 @@
     "name":"Manjot Singh",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -332,7 +332,7 @@
     "name":"Fabienne Roth",
     "position":"General Representative",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -340,7 +340,7 @@
     "name":"Francesca Rebosura",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -348,7 +348,7 @@
     "name":"Der Xiong",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -356,7 +356,7 @@
     "name":"Sachin Medhekar",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -364,7 +364,7 @@
     "name":"Nihal Satyadev",
     "position":"General Representative",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -372,7 +372,7 @@
     "name":"Taylor Bazley",
     "position":"President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -380,7 +380,7 @@
     "name":"John Joanino",
     "position":"President",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":42.9
   },
   {
@@ -388,7 +388,7 @@
     "name":"Carly Yoshida",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -396,7 +396,7 @@
     "name":"Avi Oved",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":52.6
   },
   {
@@ -404,7 +404,7 @@
     "name":"Lana El-Farra",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -412,7 +412,7 @@
     "name":"Nicole Fossier",
     "position":"External Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":55
   },
   {
@@ -420,7 +420,7 @@
     "name":"Maryssa Hall",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -428,7 +428,7 @@
     "name":"Uyen Hoang",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -436,7 +436,7 @@
     "name":"Darren Ramalho",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":53.1
   },
   {
@@ -444,7 +444,7 @@
     "name":"Armen Hadjimanoukian",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":50.9
   },
   {
@@ -452,7 +452,7 @@
     "name":"Anthony Montaivo",
     "position":"Facilities Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -460,7 +460,7 @@
     "name":"Brenda Gutierrez",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -468,7 +468,7 @@
     "name":"Lauren Rogers",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":54.1
   },
   {
@@ -476,7 +476,7 @@
     "name":"Avinoam Baral",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -484,7 +484,7 @@
     "name":"Charmaine Campbell",
     "position":"General Representative",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -492,7 +492,7 @@
     "name":"Devin Murphy",
     "position":"General Representative",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -500,7 +500,7 @@
     "name":"Sam Haws",
     "position":"General Representative",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -508,7 +508,7 @@
     "name":"Lizzy Naameh",
     "position":"General Representative",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -516,7 +516,7 @@
     "name":"Sunny Singh",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -524,7 +524,7 @@
     "name":"Lana El-Farra",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":59
   },
   {
@@ -532,7 +532,7 @@
     "name":"Raquel Saxe",
     "position":"External Vice President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -540,7 +540,7 @@
     "name":"Allyson Taylor",
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -548,7 +548,7 @@
     "name":"Taylor Mason",
     "position":"Cultural Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":68
   },
   {
@@ -556,7 +556,7 @@
     "name":"Taylor Bazley",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -564,7 +564,7 @@
     "name":"Sahil Seth",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":54
   },
   {
@@ -572,7 +572,7 @@
     "name":"Matt Spring",
     "position":"President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -580,7 +580,7 @@
     "name":"Emily Resnick",
     "position":"President",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":54.9
   },
   {
@@ -588,7 +588,7 @@
     "name":"Adam Swart",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -596,7 +596,7 @@
     "name":"Daniel Yadegari",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -604,7 +604,7 @@
     "name":"Kristina Sidrak",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":56.7
   },
   {
@@ -612,7 +612,7 @@
     "name":"Sheena Santamaria",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -620,7 +620,7 @@
     "name":"Joelle Gamble",
     "position":"External Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":50.2
   },
   {
@@ -628,7 +628,7 @@
     "name":"Ilsa Levine",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -636,7 +636,7 @@
     "name":"Layhearn Tep",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -644,7 +644,7 @@
     "name":"Raquel Saxe",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":57.1
   },
   {
@@ -652,7 +652,7 @@
     "name":"Matt Abulrach-Macias",
     "position":"Facilities Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -660,7 +660,7 @@
     "name":"Michael Starr",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":59.3
   },
   {
@@ -668,7 +668,7 @@
     "name":"Andrea Hester",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":57.1
   },
   {
@@ -676,7 +676,7 @@
     "name":"Carlos Juarez",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -684,7 +684,7 @@
     "name":"Kinnery Shah",
     "position":"Cultural Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":50.2
   },
   {
@@ -692,7 +692,7 @@
     "name":"Ashley Cartwright",
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -700,7 +700,7 @@
     "name":"David Bocarsly",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -708,7 +708,7 @@
     "name":"Donnaly Natividad",
     "position":"General Representative",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -716,7 +716,7 @@
     "name":"Daniel Chikanov",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -724,7 +724,7 @@
     "name":"Jason Smith",
     "position":"General Representative",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -732,7 +732,7 @@
     "name":"Tevita Folau",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -740,7 +740,7 @@
     "name":"Deena Dulgerian",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -748,7 +748,7 @@
     "name":"Luz Maria Kumpel",
     "position":"President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -756,7 +756,7 @@
     "name":"Jasmine Hill",
     "position":"President",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":51.4
   },
   {
@@ -764,7 +764,7 @@
     "name":"Stephanie Lucas",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":54.7
   },
   {
@@ -772,7 +772,7 @@
     "name":"Ramielyn Millo",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -780,7 +780,7 @@
     "name":"Chris Santos",
     "position":"External Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":55.3
   },
   {
@@ -788,7 +788,7 @@
     "name":"Anna Alexandroni",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -796,7 +796,7 @@
     "name":"Jason Youdeem",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -804,7 +804,7 @@
     "name":"Suza Khy",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":53.6
   },
   {
@@ -812,7 +812,7 @@
     "name":"John Christian De Vera",
     "position":"Facilities Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":52.6
   },
   {
@@ -820,7 +820,7 @@
     "name":"Carlos Naranjo Jr.",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -828,7 +828,7 @@
     "name":"Sharon Wu",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -836,7 +836,7 @@
     "name":"Rustom Birdle",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":51.8
   },
   {
@@ -844,7 +844,7 @@
     "name":"Lucy Garcia",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -852,7 +852,7 @@
     "name":"Kinnery Shah",
     "position":"Cultural Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":50.4
   },
   {
@@ -860,7 +860,7 @@
     "name":"Victor Cordon",
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -868,7 +868,7 @@
     "name":"Enemuoh Chiamaka Sandra",
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -876,7 +876,7 @@
     "name":"Emily Resnick",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -884,7 +884,7 @@
     "name":"Carl Betzler",
     "position":"General Representative",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -892,7 +892,7 @@
     "name":"Ralayaan Serang",
     "position":"General Representative",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -900,7 +900,7 @@
     "name":"Gatsby Miller",
     "position":"General Representative",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -908,7 +908,7 @@
     "name":"Nora Cisneros",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -916,7 +916,7 @@
     "name":"Matt Spring",
     "position":"General Representative",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -924,7 +924,7 @@
     "name":"Taylor Braun",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -932,7 +932,7 @@
     "name":"Jose Valenzuela",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -948,7 +948,7 @@
     "name":"Matt Sandler",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -956,7 +956,7 @@
     "name":"Lydia Kim",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -964,7 +964,7 @@
     "name":"Evan Shulman",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":51.7
   },
   {
@@ -972,7 +972,7 @@
     "name":"Boris Lipkin",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -980,7 +980,7 @@
     "name":"Jeremiah Garcia",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":50.7
   },
   {
@@ -988,7 +988,7 @@
     "name":"Pardis Farhadian",
     "position":"Facilities Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -996,7 +996,7 @@
     "name":"Galen Roth",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":54.7
   },
   {
@@ -1004,7 +1004,7 @@
     "name":"Elaine Reodica",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":56.5
   },
   {
@@ -1012,7 +1012,7 @@
     "name":"Navid Pour-Ghasemi",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1020,7 +1020,7 @@
     "name":"Monica Kohles",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1028,7 +1028,7 @@
     "name":"Joey Hernandez",
     "position":"General Representative",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1036,7 +1036,7 @@
     "name":"James Birks",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1044,7 +1044,7 @@
     "name":"Gilberto Chacon",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1052,7 +1052,7 @@
     "name":"Natalie Gonzalez",
     "position":"General Representative",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1068,7 +1068,7 @@
     "name":"Gregory Cendana",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1076,7 +1076,7 @@
     "name":"Dave Valk",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1084,7 +1084,7 @@
     "name":"Jose Manaiza",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1092,7 +1092,7 @@
     "name":"Jamel Greer",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1100,7 +1100,7 @@
     "name":"Dianne Tanjuaquio",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":51.6
   },
   {
@@ -1108,7 +1108,7 @@
     "name":"Jeanalee Obergfell",
     "position":"External Vice President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1116,7 +1116,7 @@
     "name":"Justin Hotter",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":50.8
   },
   {
@@ -1124,7 +1124,7 @@
     "name":"Adder Weintraub",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":53.6
   },
   {
@@ -1132,7 +1132,7 @@
     "name":"Alexandra Ramos",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1140,7 +1140,7 @@
     "name":"Sherlyn Mossahebfar",
     "position":"Facilities Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":50.8
   },
   {
@@ -1148,7 +1148,7 @@
     "name":"Angela Cheung",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1156,7 +1156,7 @@
     "name":"Clinton Jang",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":51
   },
   {
@@ -1164,7 +1164,7 @@
     "name":"Matias Ramos",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1172,7 +1172,7 @@
     "name":"Bernice Shaw",
     "position":"Cultural Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":53.3
   },
   {
@@ -1180,7 +1180,7 @@
     "name":"Anglie Taneja",
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1188,7 +1188,7 @@
     "name":"Michelle Lyon",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1196,7 +1196,7 @@
     "name":"Christina Colosimo",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1204,7 +1204,7 @@
     "name":"Jesse Rogel",
     "position":"General Representative",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1212,7 +1212,7 @@
     "name":"Sanobar Sajan",
     "position":"General Representative",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1220,7 +1220,7 @@
     "name":"Mae Cauguiran",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1236,7 +1236,7 @@
     "name":"Lucero Chavez",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1244,7 +1244,7 @@
     "name":"Garin Hovannisian",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1252,7 +1252,7 @@
     "name":"Troy Isaac",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1268,7 +1268,7 @@
     "name":"Stacy Chang",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1276,7 +1276,7 @@
     "name":"David Lazar",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1284,7 +1284,7 @@
     "name":"Tina Park",
     "position":"External Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":54.9
   },
   {
@@ -1292,7 +1292,7 @@
     "name":"Sheretta Thomas",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1300,7 +1300,7 @@
     "name":"Katie Tokushige",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1316,7 +1316,7 @@
     "name":"Jennifer McGee",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1324,7 +1324,7 @@
     "name":"Romi Mouhibian",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1332,7 +1332,7 @@
     "name":"Brenda Robles",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1340,7 +1340,7 @@
     "name":"Shaun Doria",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":70.1
   },
   {
@@ -1348,7 +1348,7 @@
     "name":"Joey Ellis",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1364,7 +1364,7 @@
     "name":"Curt Frieden",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1372,7 +1372,7 @@
     "name":"Dorothy Kieu Le",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1380,7 +1380,7 @@
     "name":"Thomas McKenna",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1388,7 +1388,7 @@
     "name":"Ravi Dehar",
     "position":"Campus Events Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":71.6
   },
   {
@@ -1396,7 +1396,7 @@
     "name":"Eric Alvarez",
     "position":"Campus Events Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1404,7 +1404,7 @@
     "name":"Kyle Hyman",
     "position":"Campus Events Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1412,7 +1412,7 @@
     "name":"Tamaron Jeng",
     "position":"Student Welfare Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":70.2
   },
   {
@@ -1420,7 +1420,7 @@
     "name":"Casey Henry",
     "position":"Student Welfare Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1428,7 +1428,7 @@
     "name":"Samer Araabi",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1436,7 +1436,7 @@
     "name":"Joline Price",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1444,7 +1444,7 @@
     "name":"Carlos Saucedo",
     "position":"General Representative",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1452,7 +1452,7 @@
     "name":"Christian Bogeberg",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1460,7 +1460,7 @@
     "name":"Elias Dabaie",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1468,7 +1468,7 @@
     "name":"Antonio Estrada",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1476,7 +1476,7 @@
     "name":"Shauna Peterson",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1484,7 +1484,7 @@
     "name":"Steve Sandoval",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1492,7 +1492,7 @@
     "name":"Rajan Trehan",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1500,7 +1500,7 @@
     "name":"Lorena Shakira Zavala",
     "position":"General Representative",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1508,7 +1508,7 @@
     "name":"Alex Gruenberg",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1516,7 +1516,7 @@
     "name":"Jake Strom",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1532,7 +1532,7 @@
     "name":"Kristina Doan",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":53.8
   },
   {
@@ -1540,7 +1540,7 @@
     "name":"Tommy Tseng",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1548,7 +1548,7 @@
     "name":"Lexi Reid",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1556,7 +1556,7 @@
     "name":"Jesse Melgares",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1564,7 +1564,7 @@
     "name":"Alyssa Campos",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1580,7 +1580,7 @@
     "name":"Joe Vardner",
     "position":"Facilities Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":62
   },
   {
@@ -1588,7 +1588,7 @@
     "name":"Holly LaLuz",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1596,7 +1596,7 @@
     "name":"Peter Bautista",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1604,7 +1604,7 @@
     "name":"Ryan Smeets",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":54.3
   },
   {
@@ -1612,7 +1612,7 @@
     "name":"Megan Carney",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1620,7 +1620,7 @@
     "name":"Dorothy Le",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1628,7 +1628,7 @@
     "name":"Brian Neesby",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1636,7 +1636,7 @@
     "name":"Marwa Kaisey",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1644,7 +1644,7 @@
     "name":"Zoe Loftus-Farren",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1652,7 +1652,7 @@
     "name":"P.C. Zai",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1660,7 +1660,7 @@
     "name":"Josh Lawson",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1668,7 +1668,7 @@
     "name":"Doug Ludlow",
     "position":"President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1676,7 +1676,7 @@
     "name":"Arash Mozayan Isfahani",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1692,7 +1692,7 @@
     "name":"Jonathan Cohen",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1708,7 +1708,7 @@
     "name":"Genevieve Espinosa",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1716,7 +1716,7 @@
     "name":"Mosa Hassani",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1724,7 +1724,7 @@
     "name":"Peter Bautista",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1732,7 +1732,7 @@
     "name":"Alex Gruenberg",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":50.4
   },
   {
@@ -1740,7 +1740,7 @@
     "name":"Shantanu Bhuiyan",
     "position":"Cultural Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":58.7
   },
   {
@@ -1748,7 +1748,7 @@
     "name":"Hannah Olade",
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1756,7 +1756,7 @@
     "name":"Michi Kono",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1764,7 +1764,7 @@
     "name":"Brian Neesby",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1772,7 +1772,7 @@
     "name":"Jenny Wood",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1780,7 +1780,7 @@
     "name":"Andy Green",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1788,7 +1788,7 @@
     "name":"Alonso Martin Del Campo",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1796,7 +1796,7 @@
     "name":"Tommy Tseng",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1804,7 +1804,7 @@
     "name":"Anneli Villarin",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1812,7 +1812,7 @@
     "name":"Adam Harmetz",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1820,7 +1820,7 @@
     "name":"Andrew LaFlamme",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1828,7 +1828,7 @@
     "name":"Anica McKesey",
     "position":"President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":51.3
   },
   {
@@ -1836,7 +1836,7 @@
     "name":"Gideon Baum",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1844,7 +1844,7 @@
     "name":"Kendar Carney",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1852,7 +1852,7 @@
     "name":"Allende Palma/Saracho",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":51.1
   },
   {
@@ -1860,7 +1860,7 @@
     "name":"Matt Kaczmarek",
     "position":"External Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":55.9
   },
   {
@@ -1868,7 +1868,7 @@
     "name":"David Rodriguez",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1876,7 +1876,7 @@
     "name":"Christine Sol",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1884,7 +1884,7 @@
     "name":"Christina Paganini",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1900,7 +1900,7 @@
     "name":"Albert Farias",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1908,7 +1908,7 @@
     "name":"Sonia Sylls",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1924,7 +1924,7 @@
     "name":"Erica Husse",
     "position":"Financial Supports Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":62.5
   },
   {
@@ -1932,7 +1932,7 @@
     "name":"Omar Qudrat",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1940,7 +1940,7 @@
     "name":"Marcello Robinson",
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1948,7 +1948,7 @@
     "name":"Wendy Flores",
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1964,7 +1964,7 @@
     "name":"Janet Chiang",
     "position":"Student Welfare Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":71.5
   },
   {
@@ -1972,7 +1972,7 @@
     "name":"Arvin Abraham",
     "position":"Student Welfare Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1980,7 +1980,7 @@
     "name":"Joshua Leu Lawson",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -1988,7 +1988,7 @@
     "name":"Jenny Galvez",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -1996,7 +1996,7 @@
     "name":"Amy Lucas",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2004,7 +2004,7 @@
     "name":"Nelson Saldana",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2012,7 +2012,7 @@
     "name":"Gerardo Ornelas",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2020,7 +2020,7 @@
     "name":"Jon English",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2028,7 +2028,7 @@
     "name":"Chase Rabenn",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2036,7 +2036,7 @@
     "name":"Justin Williams",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2044,7 +2044,7 @@
     "name":"Linda Lam",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2052,7 +2052,7 @@
     "name":"David Dahle",
     "position":"President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":50.4
   },
   {
@@ -2060,7 +2060,7 @@
     "name":"Bryant Tan",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2076,7 +2076,7 @@
     "name":"Justin Levi",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2084,7 +2084,7 @@
     "name":"Avneet Kaur",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2092,7 +2092,7 @@
     "name":"Christopher Diaz",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":54.8
   },
   {
@@ -2100,7 +2100,7 @@
     "name":"Dria Fearn",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2108,7 +2108,7 @@
     "name":"Robbie Clark",
     "position":"Cultural Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":63.7
   },
   {
@@ -2116,7 +2116,7 @@
     "name":"Luke Patterson",
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2124,7 +2124,7 @@
     "name":"Adam Harmetz",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2132,7 +2132,7 @@
     "name":"Michelle Styczynski",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2140,7 +2140,7 @@
     "name":"Allende Palma/Saracho",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2148,7 +2148,7 @@
     "name":"Jenny Lam",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2156,7 +2156,7 @@
     "name":"Maggy Athatathius",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2164,7 +2164,7 @@
     "name":"David Ehrenberg",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2172,7 +2172,7 @@
     "name":"Karren Lane",
     "position":"President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":52.2
   },
   {
@@ -2180,7 +2180,7 @@
     "name":"Dusan Miletich",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2188,7 +2188,7 @@
     "name":"Katheryn Klein",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2196,7 +2196,7 @@
     "name":"Bryant Tan",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":58.2
   },
   {
@@ -2204,7 +2204,7 @@
     "name":"Jeremy McKenzie",
     "position":"Facilities Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":62.1
   },
   {
@@ -2212,7 +2212,7 @@
     "name":"Narges Pisheh",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2220,7 +2220,7 @@
     "name":"Theo Apostol",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2228,7 +2228,7 @@
     "name":"Christopher Cheng",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2236,7 +2236,7 @@
     "name":"David Dahle",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2244,7 +2244,7 @@
     "name":"Cynthia Mosqueda",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2252,7 +2252,7 @@
     "name":"Breana Teubner",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2260,7 +2260,7 @@
     "name":"Katynja McCory",
     "position":"President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2268,7 +2268,7 @@
     "name":"Jason Lautenschleger",
     "position":"President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2284,7 +2284,7 @@
     "name":"Ramzi Ajami",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2292,7 +2292,7 @@
     "name":"Elias Encisco",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":52.4
   },
   {
@@ -2300,7 +2300,7 @@
     "name":"John Pham",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2308,7 +2308,7 @@
     "name":"Tova Fuller",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2316,7 +2316,7 @@
     "name":"RoseAnne Gutierrez",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":63.4
   },
   {
@@ -2324,7 +2324,7 @@
     "name":"Ryan Bulatao",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2332,7 +2332,7 @@
     "name":"Noah Bookman",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2340,7 +2340,7 @@
     "name":"Katrina Eiland",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2348,7 +2348,7 @@
     "name":"Bill Elliott",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2356,7 +2356,7 @@
     "name":"Cheryl Marie Lott",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2364,7 +2364,7 @@
     "name":"Dan Moroaica",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2372,7 +2372,7 @@
     "name":"Elisa Sequeira",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2380,7 +2380,7 @@
     "name":"Kendra Streigler",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2388,7 +2388,7 @@
     "name":"Ramon L. Richardson",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":54.3
   },
   {
@@ -2396,7 +2396,7 @@
     "name":"Nayon Kang",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2404,7 +2404,7 @@
     "name":"Mark Beck-Heyman",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2412,7 +2412,7 @@
     "name":"Sophia Paek",
     "position":"External Vice President",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":64.4
   },
   {
@@ -2420,7 +2420,7 @@
     "name":"Grey Kenneth Frandsen",
     "position":"External Vice President",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2428,7 +2428,7 @@
     "name":"Katherine Carrido",
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":59.9
   },
   {
@@ -2436,7 +2436,7 @@
     "name":"Marykay Y. Tsuji",
     "position":"Cultural Affairs Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2444,7 +2444,7 @@
     "name":"Jared Seltzer",
     "position":"Campus Events Commissioner",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":59
   },
   {
@@ -2452,7 +2452,7 @@
     "name":"Mike Mintz",
     "position":"Campus Events Commissioner",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2460,7 +2460,7 @@
     "name":"Lindsey Brooks",
     "position":"Student Welfare Commissioner",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":58
   },
   {
@@ -2468,7 +2468,7 @@
     "name":"Shahrad M. Behnam",
     "position":"Student Welfare Commissioner",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2476,7 +2476,7 @@
     "name":"Meredith Magner",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2484,7 +2484,7 @@
     "name":"Wendy Sanchez",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2492,7 +2492,7 @@
     "name":"Katynja McCory",
     "position":"General Representatives",
     "endorsed":true,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2500,7 +2500,7 @@
     "name":"Chris Cheng",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   },
   {
@@ -2508,7 +2508,7 @@
     "name":"Adam Rosenthal",
     "position":"General Representatives",
     "endorsed":false,
-    "won":"Yes",
+    "won":true,
     "votePercentage":0
   },
   {
@@ -2516,7 +2516,7 @@
     "name":"",
     "position":"",
     "endorsed":false,
-    "won":"No",
+    "won":false,
     "votePercentage":0
   }
 ]
