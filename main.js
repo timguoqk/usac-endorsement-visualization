@@ -1,5 +1,5 @@
 var completeData, data;
-var range, candidateKeys = ["year", "name", "position", "endorsed", "won", "votePercentage"];
+var candidateKeys = ["year", "name", "position", "endorsed", "won", "votePercentage"];
 var width, height, svg;
 var x, y, r, cellH, cellPerRow;
 // TODO: better color
@@ -67,7 +67,7 @@ $(function(){
             this.children[0].children[0].textContent = percentage;
             this.children[1].textContent = percentage;
         });
-
+        $('.dropdown').dropdown();
     });
 });
 
