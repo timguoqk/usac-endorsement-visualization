@@ -77,7 +77,7 @@ function draw() {
     width = $('#d3-container').width();
     height = $('#d3-container').height();
     determineSize();
-    
+
     svg = d3.select('#d3-container').append('svg')
             .attr('width', width)
             .attr('height', height);
@@ -92,14 +92,14 @@ function draw() {
         .attr('data-content', function(d) {
             // TODO: style the content
             // data-html can also be used
-            return d.year + '\n' + d.position + '\n' + d.votePercentage;
+            return d.year + '\n' + d.position + '\n' + d.votePercentage + '%';
         })
         .attr('fill', function(d) {
             if (d.endorsed)
                 return d.won ? color.endorsedAndWon : color.endorsedAndLost;
             return d.won ? color.notEndorsedAndWon : color.notEndorsedAndLost;
         })
-      .transition().delay(300).duration(800)
+      .transition().delay(300).duration(1000)
         .attr('cx', function(d, i) {
             return x(Math.floor(i/cellPerRow));
         })
@@ -116,6 +116,27 @@ function updateStats() {
         this.children[0].children[0].textContent = percentage;
         this.children[1].textContent = percentage;
     });
+    var stats = data.reduce(function(previousValue, d) {
+        if (d.endorsed) {
+            if (d.won)
+                previousValue.eaw += 1;
+            else
+                previousValue.eal += 1;
+        }
+        else {
+            if (d.won)
+                previousValue.neaw += 1;
+            else
+                previousValue.neal += 1;
+        }
+        return previousValue;
+    }, {eaw: 0, eal: 0, neaw: 0, neal: 0});
+    for (var key in stats)
+        stats[key] = Math.ceil(stats[key]/data.length*100);
+    $('#stat-eaw>.value').text(stats.eaw + '%');
+    $('#stat-eal>.value').text(stats.eal + '%');
+    $('#stat-neaw>.value').text(stats.neaw + '%');
+    $('#stat-neal>.value').text(stats.neal + '%');
 }
 
 function redraw() {
@@ -135,8 +156,9 @@ function redraw() {
         .attr('data-content', function(d) {
             // TODO: style the content
             // data-html can also be used
-            return d.year + '\n' + d.position + '\n' + d.votePercentage;
+            return d.year + '\n' + d.position + '\n' + d.votePercentage + '%';
         })
+        .attr('fill', '#ffffff')
         .transition().duration(800)
         .attr('fill', function(d) {
             if (d.endorsed)
@@ -153,12 +175,11 @@ function redraw() {
         .style("fill-opacity", 1e-6)
         .remove();
 
-    $('#d3-container circle').popup();
+    updateStats();
 }
 
 function cmpData(a, b) {
-//"year", "name", "position", "endorsed", "won", "votePercentage"   
-    var aKey = 100*a.endorsed + 10*a.won - a.year/2000;
-    var bKey = 100*b.endorsed + 10*b.won - b.year/2000;
+    var aKey = -100*a.endorsed - 10*a.won - a.year/2000;
+    var bKey = -100*b.endorsed - 10*b.won - b.year/2000;
     return aKey - bKey;
 }
