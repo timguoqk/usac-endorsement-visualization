@@ -81,30 +81,6 @@
   },
   {
     "year":"2015",
-    "name":"Keytiana Hempstead",
-    "position":"Transfer Student Representative",
-    "endorsed":true,
-    "won":false,
-    "votePercentage":""
-  },
-  {
-    "year":"2015",
-    "name":"J. Cesar Flores",
-    "position":"Transfer Student Representative",
-    "endorsed":false,
-    "won":false,
-    "votePercentage":""
-  },
-  {
-    "year":"2015",
-    "name":"Ariel Rafalian",
-    "position":"Transfer Student Representative",
-    "endorsed":false,
-    "won":"Yes/Runoff",
-    "votePercentage":52.3
-  },
-  {
-    "year":"2015",
     "name":"Anais Leontine Amin",
     "position":"General Representative",
     "endorsed":true,
@@ -164,7 +140,7 @@
     "name":"Devin Murphy",
     "position":"President",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":50.2
   },
   {
@@ -196,7 +172,7 @@
     "name":"Avinoam Baral",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":53.4
   },
   {
@@ -212,7 +188,7 @@
     "name":"Conrad Contreras",
     "position":"External Vice President",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":52.4
   },
   {
@@ -244,7 +220,7 @@
     "name":"Allyson Bach",
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":50.4
   },
   {
@@ -268,7 +244,7 @@
     "name":"Carlos Quintanilla",
     "position":"Facilities Commissioner",
     "endorsed":false,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":50.2
   },
   {
@@ -292,7 +268,7 @@
     "name":"Heather Rosen",
     "position":"Financial Supports Commissioner",
     "endorsed":false,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":55
   },
   {
@@ -940,7 +916,7 @@
     "name":"Homaira Hosseini",
     "position":"President",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":53.3
   },
   {
@@ -1060,7 +1036,7 @@
     "name":"Gabe Rose",
     "position":"President",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":54.5
   },
   {
@@ -1228,7 +1204,7 @@
     "name":"Marwa Kelsey",
     "position":"President",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":51.2
   },
   {
@@ -1260,7 +1236,7 @@
     "name":"Gregory Cendana",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":51.8
   },
   {
@@ -1308,7 +1284,7 @@
     "name":"Nat Schuster",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":51.2
   },
   {
@@ -1356,7 +1332,7 @@
     "name":"P.C. Zai",
     "position":"Facilities Commissioner",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":50.7
   },
   {
@@ -1524,7 +1500,7 @@
     "name":"Jenny Wood",
     "position":"President",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":56
   },
   {
@@ -1572,7 +1548,7 @@
     "name":"Jeannie Biniek",
     "position":"External Vice President",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":51
   },
   {
@@ -1684,7 +1660,7 @@
     "name":"Allende Palma/Saracho",
     "position":"President",
     "endorsed":false,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":52
   },
   {
@@ -1700,7 +1676,7 @@
     "name":"Darren Chan",
     "position":"Internal Vice President",
     "endorsed":false,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":51
   },
   {
@@ -1892,7 +1868,7 @@
     "name":"Sophia Kozak",
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":51.4
   },
   {
@@ -1916,7 +1892,7 @@
     "name":"Tutram Nguyen",
     "position":"Facilities Commissioner",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":50.3
   },
   {
@@ -1956,7 +1932,7 @@
     "name":"Kelly Wynn",
     "position":"Cultural Affairs Commissioner",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":52.9
   },
   {
@@ -2068,7 +2044,7 @@
     "name":"T. J. Cordero",
     "position":"Internal Vice President",
     "endorsed":true,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":57.7
   },
   {
@@ -2276,7 +2252,7 @@
     "name":"Elizabeth Houston",
     "position":"President",
     "endorsed":false,
-    "won":"Yes/Runoff",
+    "won":true,
     "votePercentage":51.1
   },
   {
