@@ -9,3 +9,7 @@
 	white-space: nowrap;
 	overflow: hidden;
 }
+
+#explanations {
+	margin-top: 20px;
+}
