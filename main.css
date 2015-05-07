@@ -1,10 +1,11 @@
 #d3-container {
 	height: 100vh;
-	margin-bottom: 0;
+	background-color: #ffffff;
 }
 
 .footer {
-	text-align: center;
+	padding-top: 10px;
+	text-align: right;
 	white-space: nowrap;
 	overflow: hidden;
 }

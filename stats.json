@@ -13,7 +13,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -21,7 +21,7 @@
     "position":"Internal Vice President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -37,7 +37,7 @@
     "position":"External Vice President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -53,7 +53,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -69,7 +69,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -85,7 +85,7 @@
     "position":"Transfer Student Representative",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -93,7 +93,7 @@
     "position":"Transfer Student Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -109,7 +109,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -117,7 +117,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -125,7 +125,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -133,7 +133,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -141,7 +141,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -149,7 +149,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2015",
@@ -157,7 +157,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -173,7 +173,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -181,7 +181,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -189,7 +189,7 @@
     "position":"Internal Vice President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -205,7 +205,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -221,7 +221,7 @@
     "position":"External Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -229,7 +229,7 @@
     "position":"External Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -237,7 +237,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -253,7 +253,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -261,7 +261,7 @@
     "position":"Facilities Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -277,7 +277,7 @@
     "position":"Facilities Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -285,7 +285,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -301,7 +301,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -309,7 +309,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -317,7 +317,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -325,7 +325,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -333,7 +333,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -341,7 +341,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -349,7 +349,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -357,7 +357,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2014",
@@ -365,7 +365,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -373,7 +373,7 @@
     "position":"President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -389,7 +389,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -405,7 +405,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -421,7 +421,7 @@
     "position":"External Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -429,7 +429,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -453,7 +453,7 @@
     "position":"Facilities Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -461,7 +461,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -477,7 +477,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -485,7 +485,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -493,7 +493,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -501,7 +501,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -509,7 +509,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2013",
@@ -517,7 +517,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2012",
@@ -533,7 +533,7 @@
     "position":"External Vice President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2012",
@@ -541,7 +541,7 @@
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2012",
@@ -557,7 +557,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2012",
@@ -573,7 +573,7 @@
     "position":"President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -589,7 +589,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -597,7 +597,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -613,7 +613,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -629,7 +629,7 @@
     "position":"External Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -637,7 +637,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -653,7 +653,7 @@
     "position":"Facilities Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -677,7 +677,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -693,7 +693,7 @@
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -701,7 +701,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -709,7 +709,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -717,7 +717,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -725,7 +725,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -733,7 +733,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2011",
@@ -741,7 +741,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -749,7 +749,7 @@
     "position":"President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -773,7 +773,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -789,7 +789,7 @@
     "position":"External Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -797,7 +797,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -821,7 +821,7 @@
     "position":"Facilities Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -829,7 +829,7 @@
     "position":"Facilities Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -845,7 +845,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -861,7 +861,7 @@
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -869,7 +869,7 @@
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -877,7 +877,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -885,7 +885,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -893,7 +893,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -901,7 +901,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -909,7 +909,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -917,7 +917,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -925,7 +925,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2010",
@@ -933,7 +933,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2008",
@@ -949,7 +949,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2008",
@@ -957,7 +957,7 @@
     "position":"Internal Vice President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2008",
@@ -973,7 +973,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2008",
@@ -989,7 +989,7 @@
     "position":"Facilities Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2008",
@@ -1013,7 +1013,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2008",
@@ -1021,7 +1021,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2008",
@@ -1029,7 +1029,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2008",
@@ -1037,7 +1037,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2008",
@@ -1045,7 +1045,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2008",
@@ -1053,7 +1053,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1069,7 +1069,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1077,7 +1077,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1085,7 +1085,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1093,7 +1093,7 @@
     "position":"Internal Vice President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1109,7 +1109,7 @@
     "position":"External Vice President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1133,7 +1133,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1149,7 +1149,7 @@
     "position":"Facilities Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1165,7 +1165,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1181,7 +1181,7 @@
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1189,7 +1189,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1197,7 +1197,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1205,7 +1205,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1213,7 +1213,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2007",
@@ -1221,7 +1221,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1237,7 +1237,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1245,7 +1245,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1253,7 +1253,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1269,7 +1269,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1277,7 +1277,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1293,7 +1293,7 @@
     "position":"External Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1301,7 +1301,7 @@
     "position":"External Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1317,7 +1317,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1325,7 +1325,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1333,7 +1333,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1349,7 +1349,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1365,7 +1365,7 @@
     "position":"Facilities Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1373,7 +1373,7 @@
     "position":"Facilities Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1381,7 +1381,7 @@
     "position":"Facilities Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1397,7 +1397,7 @@
     "position":"Campus Events Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1405,7 +1405,7 @@
     "position":"Campus Events Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1421,7 +1421,7 @@
     "position":"Student Welfare Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1429,7 +1429,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1437,7 +1437,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1445,7 +1445,7 @@
     "position":"General Representative",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1453,7 +1453,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1461,7 +1461,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1469,7 +1469,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1477,7 +1477,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1485,7 +1485,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1493,7 +1493,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2006",
@@ -1501,7 +1501,7 @@
     "position":"General Representative",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1509,7 +1509,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1517,7 +1517,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1541,7 +1541,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1549,7 +1549,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1557,7 +1557,7 @@
     "position":"External Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1565,7 +1565,7 @@
     "position":"External Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1589,7 +1589,7 @@
     "position":"Facilities Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1597,7 +1597,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1613,7 +1613,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1621,7 +1621,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1629,7 +1629,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1637,7 +1637,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1645,7 +1645,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2005",
@@ -1653,7 +1653,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1661,7 +1661,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1669,7 +1669,7 @@
     "position":"President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1677,7 +1677,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1693,7 +1693,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1709,7 +1709,7 @@
     "position":"Internal Vice President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1717,7 +1717,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1725,7 +1725,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1749,7 +1749,7 @@
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1757,7 +1757,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1765,7 +1765,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1773,7 +1773,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1781,7 +1781,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1789,7 +1789,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1797,7 +1797,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2004",
@@ -1805,7 +1805,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1813,7 +1813,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1821,7 +1821,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1837,7 +1837,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1845,7 +1845,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1869,7 +1869,7 @@
     "position":"External Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1877,7 +1877,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1885,7 +1885,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1901,7 +1901,7 @@
     "position":"Facilities Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1909,7 +1909,7 @@
     "position":"Facilities Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1933,7 +1933,7 @@
     "position":"Financial Supports Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1941,7 +1941,7 @@
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1949,7 +1949,7 @@
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1973,7 +1973,7 @@
     "position":"Student Welfare Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1981,7 +1981,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1989,7 +1989,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -1997,7 +1997,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -2005,7 +2005,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -2013,7 +2013,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -2021,7 +2021,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -2029,7 +2029,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -2037,7 +2037,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2003",
@@ -2045,7 +2045,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2002",
@@ -2061,7 +2061,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2002",
@@ -2077,7 +2077,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2002",
@@ -2085,7 +2085,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2002",
@@ -2101,7 +2101,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2002",
@@ -2117,7 +2117,7 @@
     "position":"Cultural Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2002",
@@ -2125,7 +2125,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2002",
@@ -2133,7 +2133,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2002",
@@ -2141,7 +2141,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2002",
@@ -2149,7 +2149,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2002",
@@ -2157,7 +2157,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2001",
@@ -2165,7 +2165,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2001",
@@ -2181,7 +2181,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2001",
@@ -2189,7 +2189,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2001",
@@ -2213,7 +2213,7 @@
     "position":"Facilities Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2001",
@@ -2221,7 +2221,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2001",
@@ -2229,7 +2229,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2001",
@@ -2237,7 +2237,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2001",
@@ -2245,7 +2245,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2001",
@@ -2253,7 +2253,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2261,7 +2261,7 @@
     "position":"President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2269,7 +2269,7 @@
     "position":"President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2285,7 +2285,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2301,7 +2301,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2309,7 +2309,7 @@
     "position":"Academic Affairs Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2325,7 +2325,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2333,7 +2333,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2341,7 +2341,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2349,7 +2349,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2357,7 +2357,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2365,7 +2365,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2373,7 +2373,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"2000",
@@ -2381,7 +2381,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1999",
@@ -2397,7 +2397,7 @@
     "position":"Internal Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1999",
@@ -2405,7 +2405,7 @@
     "position":"Internal Vice President",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1999",
@@ -2421,7 +2421,7 @@
     "position":"External Vice President",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1999",
@@ -2437,7 +2437,7 @@
     "position":"Cultural Affairs Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1999",
@@ -2453,7 +2453,7 @@
     "position":"Campus Events Commissioner",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1999",
@@ -2469,7 +2469,7 @@
     "position":"Student Welfare Commissioner",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1999",
@@ -2477,7 +2477,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1999",
@@ -2485,7 +2485,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1999",
@@ -2493,7 +2493,7 @@
     "position":"General Representatives",
     "endorsed":true,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1999",
@@ -2501,7 +2501,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1999",
@@ -2509,7 +2509,7 @@
     "position":"General Representatives",
     "endorsed":false,
     "won":true,
-    "votePercentage":0
+    "votePercentage":""
   },
   {
     "year":"1998",
@@ -2517,6 +2517,6 @@
     "position":"",
     "endorsed":false,
     "won":false,
-    "votePercentage":0
+    "votePercentage":""
   }
 ]
