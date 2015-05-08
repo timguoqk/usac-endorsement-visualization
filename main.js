@@ -1,5 +1,4 @@
 var completeData, data;
-var candidateKeys = ["year", "name", "position", "endorsed", "won", "votePercentage"];
 var width, height, svg;
 var x, y, r, cellH, cellPerRow;
 // TODO: better color
@@ -14,8 +13,12 @@ var criteria = {};
 $(function(){
     $.getJSON('./stats.json', function(res) {
         completeData = res;
+        completeData.sort(function(a, b) {
+            if (a.endorsed == b.endorsed)
+                return (a.won == b.won) ? (a.year - b.year) : (a.won - b.won);
+            return a.endorsed - b.endorsed;
+        });
         data = completeData;
-        data.sort(cmpData);
 
         draw();
 
@@ -70,7 +73,6 @@ function filter(criteria) {
         if (flag)
             data.push(completeData[i]);
     }
-    data.sort(cmpData);
 }
 
 function draw() {
@@ -90,9 +92,7 @@ function draw() {
         .attr('r', 2)
         .attr('data-title', function(d) { return d.name; })
         .attr('data-content', function(d) {
-            // TODO: style the content
-            // data-html can also be used
-            return d.year + '\n' + d.position + '\n' + d.votePercentage + '%';
+            return d.year + '\n' + d.position + '\n' + d.votePercentage;
         })
         .attr('fill', function(d) {
             if (d.endorsed)
@@ -109,13 +109,6 @@ function draw() {
 
 function updateStats() {
     $('#d3-container circle').popup();
-    $('.ui.progress').each(function() {
-        // set the bar manually to avoid animation
-        var percentage = this.dataset.percent;
-        this.children[0].style.width = percentage + "%";
-        this.children[0].children[0].textContent = percentage;
-        this.children[1].textContent = percentage;
-    });
     var stats = data.reduce(function(previousValue, d) {
         if (d.endorsed) {
             if (d.won)
@@ -133,6 +126,17 @@ function updateStats() {
     }, {eaw: 0, eal: 0, neaw: 0, neal: 0});
     for (var key in stats)
         stats[key] = Math.ceil(stats[key]/data.length*100);
+
+    // Percentage for success predictions / total predictions
+    $('.ui.progress').attr('data-percent', Math.ceil(stats.eaw/(stats.eaw+stats.neaw)*100));
+    $('.ui.progress').each(function() {
+        // set the bar manually to avoid animation
+        var percentage = this.dataset.percent;
+        this.children[0].style.width = percentage + "%";
+        this.children[0].children[0].textContent = percentage;
+        this.children[1].textContent = percentage;
+    });
+
     $('#stat-eaw>.value').text(stats.eaw + '%');
     $('#stat-eal>.value').text(stats.eal + '%');
     $('#stat-neaw>.value').text(stats.neaw + '%');
@@ -154,9 +158,7 @@ function redraw() {
     circles.enter().append('circle')
         .attr('data-title', function(d) { return d.name; })
         .attr('data-content', function(d) {
-            // TODO: style the content
-            // data-html can also be used
-            return d.year + '\n' + d.position + '\n' + d.votePercentage + '%';
+            return d.year + '\n' + d.position + '\n' + d.votePercentage;
         })
         .attr('fill', '#ffffff')
         .transition().duration(800)
@@ -176,10 +178,4 @@ function redraw() {
         .remove();
 
     updateStats();
-}
-
-function cmpData(a, b) {
-    var aKey = -100*a.endorsed - 10*a.won - a.year/2000;
-    var bKey = -100*b.endorsed - 10*b.won - b.year/2000;
-    return aKey - bKey;
 }
