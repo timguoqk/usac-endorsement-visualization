@@ -51,11 +51,12 @@ function determineSize() {
     cellH = 10;
     cellPerRow = 22;
 
+    // TODO: correct function
     x = d3.scale.ordinal()
-        .domain(d3.range(Math.ceil(data.length/cellPerRow)), 1)
+        .domain(d3.range(cellPerRow), 1)
         .rangeRoundPoints([3*r, width - 3*r]);
     y = d3.scale.ordinal()
-        .domain(d3.range(cellPerRow), 1)
+        .domain(d3.range(Math.ceil(data.length/cellPerRow)), 1)
         .rangeRoundPoints([3*r, height - 3*r]);
 }
 
@@ -101,9 +102,11 @@ function draw() {
         })
       .transition().delay(300).duration(1000)
         .attr('cx', function(d, i) {
-            return x(Math.floor(i/cellPerRow));
+            return x(i%cellPerRow);
         })
-        .attr('cy', function(d, i) { return y(i%cellPerRow); })
+        .attr('cy', function(d, i) {
+            return y(Math.floor(i/cellPerRow));
+        })
         .attr('r', r);
 }
 
@@ -128,7 +131,8 @@ function updateStats() {
         stats[key] = Math.ceil(stats[key]/data.length*100);
 
     // Percentage for success predictions / total predictions
-    $('.ui.progress').attr('data-percent', Math.ceil(stats.eaw/(stats.eaw+stats.neaw)*100));
+    $('.ui.progress').attr('data-percent',
+        Math.ceil(stats.eaw/(stats.eaw+stats.neaw)*100));
     $('.ui.progress').each(function() {
         // set the bar manually to avoid animation
         var percentage = this.dataset.percent;
@@ -151,9 +155,11 @@ function redraw() {
 
     circles.transition().duration(800)
         .attr('cx', function(d, i) {
-            return x(Math.floor(i/cellPerRow));
+            return x(i%cellPerRow);
         })
-        .attr('cy', function(d, i) { return y(i%cellPerRow); });
+        .attr('cy', function(d, i) {
+            return y(Math.floor(i/cellPerRow));
+        });
 
     circles.enter().append('circle')
         .attr('data-title', function(d) { return d.name; })
@@ -169,9 +175,11 @@ function redraw() {
         })
         .attr('r', r)
         .attr('cx', function(d, i) {
-            return x(Math.floor(i/cellPerRow));
+            return x(i%cellPerRow);
         })
-        .attr('cy', function(d, i) { return y(i%cellPerRow); });
+        .attr('cy', function(d, i) {
+            return y(Math.floor(i/cellPerRow));
+        });
 
     circles.exit().transition().duration(500)
         .style("fill-opacity", 1e-6)
