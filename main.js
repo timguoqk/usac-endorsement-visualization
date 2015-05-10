@@ -61,19 +61,13 @@ function determineSize() {
 }
 
 function filter(criteria) {
-    data = [];
     var keys = Object.keys(criteria);
-    for (var i = 0; i < completeData.length; i ++) {
-        var flag = true;
-        for (var j = 0; j < keys.length; j ++) {
-            if (completeData[i][keys[j]] != criteria[keys[j]]) {
-                flag = false;
-                break;
-            }
-        }
-        if (flag)
-            data.push(completeData[i]);
-    }
+    data = completeData.filter(function(d){
+        return !keys.some(function(key){
+            // use double negation to handle the case when keys=[]
+            return d[key] != criteria[key];
+        });
+    });
 }
 
 function draw() {
