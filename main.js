@@ -1,16 +1,15 @@
 var completeData, data;
 var width, height, svg;
 var x, y, r, cellH, cellPerRow;
-// TODO: better color
 var color = {
-    // add colors?
     // y-axis?
-    endorsedAndWon: "#f9e939",
-    notEndorsedAndWon: "#fff5aa",
-    endorsedAndLost: "#099ab7",
-    notEndorsedAndLost: "#0a006d"
+    endorsedAndWon: "#fd7400",
+    notEndorsedAndWon: "#ffe11a",
+    endorsedAndLost: "#1f8a70",
+    notEndorsedAndLost: "#004358"
 };
 var criteria = {};
+var globalSuccessRate = 0.66;
 
 $(function(){
     $.getJSON('./stats.json', function(res) {
@@ -51,7 +50,7 @@ function determineSize() {
     // TODO: non-constant r/h/perRow
     r = 8;
     cellH = 10;
-    cellPerRow = 22;
+    cellPerRow = Math.min(20, data.filter(function(d){return d.won && d.endorsed;}).length);
 
     // TODO: correct function
     x = d3.scale.ordinal()
@@ -104,6 +103,14 @@ function draw() {
             return y(Math.floor(i/cellPerRow));
         })
         .attr('r', r);
+
+    // 66% line
+    svg.append('line')
+        .attr('x1', 2 * r).attr('y1', (1 - globalSuccessRate) * height)
+        .attr('x2', width - 2 * r).attr('y2', (1 - globalSuccessRate) * height)
+        .attr('stroke-width', 2)
+        .attr('stroke-dasharray', '10, 10')
+        .attr('stroke', 'black');
 }
 
 function updateStats() {
@@ -139,15 +146,14 @@ function updateStats() {
     $('#stat-neal>.value').text(stats.neal + '%');
 }
 
-function changeMode(type) {
-    switch(type) {
-        case "year":
-            break;
-        case "result":
-            break;
-        default:
-            // Unsorted
-    }
+function changeToYear() {
+    $('.changeMode .ui.button').removeClass('active');
+    $('#changeMode-year').addClass('active');
+}
+
+function changeToResult() {
+    $('.changeMode .ui.button').removeClass('active');
+    $('#changeMode-result').addClass('active');
 }
 
 function redraw() {
