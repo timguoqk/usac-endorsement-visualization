@@ -3,6 +3,8 @@ var width, height, svg;
 var x, y, r, cellH, cellPerRow;
 // TODO: better color
 var color = {
+    // add colors?
+    // y-axis?
     endorsedAndWon: "#f9e939",
     notEndorsedAndWon: "#fff5aa",
     endorsedAndLost: "#099ab7",
@@ -15,8 +17,8 @@ $(function(){
         completeData = res;
         completeData.sort(function(a, b) {
             if (a.endorsed == b.endorsed)
-                return (a.won == b.won) ? (a.year - b.year) : (a.won - b.won);
-            return a.endorsed - b.endorsed;
+                return (a.won == b.won) ? (b.year - a.year) : (b.won - a.won);
+            return b.endorsed - a.endorsed;
         });
         data = completeData;
 
@@ -57,7 +59,7 @@ function determineSize() {
         .rangeRoundPoints([3*r, width - 3*r]);
     y = d3.scale.ordinal()
         .domain(d3.range(Math.ceil(data.length/cellPerRow)), 1)
-        .rangeRoundPoints([3*r, height - 3*r]);
+        .rangeRoundPoints([height - 3*r, 3*r]);
 }
 
 function filter(criteria) {
@@ -125,20 +127,27 @@ function updateStats() {
         stats[key] = Math.ceil(stats[key]/data.length*100);
 
     // Percentage for success predictions / total predictions
-    $('.ui.progress').attr('data-percent',
-        Math.ceil(stats.eaw/(stats.eaw+stats.neaw)*100));
-    $('.ui.progress').each(function() {
-        // set the bar manually to avoid animation
-        var percentage = this.dataset.percent;
-        this.children[0].style.width = percentage + "%";
-        this.children[0].children[0].textContent = percentage;
-        this.children[1].textContent = percentage;
-    });
+    var successPercentage = Math.ceil(stats.eaw/(stats.eaw+stats.eal)*100);
+    // set the bar manually to avoid animation
+    $('#success-progress>.bar').css("width", successPercentage + "%")
+        .css("background-color", "hsla(177,100%," + Math.sqrt(successPercentage*20) + "%,1)");
+    $('#success-progress>.label').text(successPercentage + "% of Daily Bruin endorsed candidates won");
 
     $('#stat-eaw>.value').text(stats.eaw + '%');
     $('#stat-eal>.value').text(stats.eal + '%');
     $('#stat-neaw>.value').text(stats.neaw + '%');
     $('#stat-neal>.value').text(stats.neal + '%');
+}
+
+function changeMode(type) {
+    switch(type) {
+        case "year":
+            break;
+        case "result":
+            break;
+        default:
+            // Unsorted
+    }
 }
 
 function redraw() {
