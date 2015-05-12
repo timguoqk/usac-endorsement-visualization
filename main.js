@@ -10,7 +10,7 @@ var color = {
 var grayColor = '#807F83';
 var criteria = {};
 var stats, yearStats, globalSuccessRate = 0.66;
-var startYear = 1999, endYear = 2015;
+var startYear = 1996, endYear = 2015;
 
 $(function(){
     $.getJSON('./stats.json', function(res) {
@@ -37,7 +37,6 @@ $(function(){
             var type = $('#changeType-year').hasClass('active') ? 'year' : 'result';
             redraw(type);
         }});
-        $('.ui.accordion').accordion();
 
         draw();
         $('#d3-container circle').popup();
@@ -79,7 +78,7 @@ function determineSize(type) {
         else
             r = 8;
         y = d3.scale.ordinal()
-            .domain(d3.range(1998, 2016))
+            .domain(d3.range(startYear, endYear+1))
             .rangeRoundPoints([height - 3*r, 3*r]);
         x = d3.scale.ordinal()
             .domain(d3.range(0, maxNum))  // Max number of candidates/yr

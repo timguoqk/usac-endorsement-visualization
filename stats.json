@@ -4,3143 +4,2750 @@
         "name": "Heather Rosen",
         "position": "President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2015",
         "name": "Morris Sarafian",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2015",
         "name": "Devyani Rana",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2015",
         "name": "Heather Hourdequin",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2015",
         "name": "Denea Joseph",
         "position": "External Vice President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2015",
         "name": "Zach Helder",
         "position": "External Vice President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2015",
         "name": "Kevin Casasola",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2015",
         "name": "Trent Kajikawa",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2015",
         "name": "Erineo Garcia",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2015",
         "name": "Ruhi Patil",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2015",
         "name": "Keytiana Hempstead",
         "position": "Transfer Student Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2015",
         "name": "J. Cesar Flores",
         "position": "Transfer Student Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2015",
         "name": "Ariel Rafalian",
         "position": "Transfer Student Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2015",
         "name": "Anais Leontine Amin",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2015",
         "name": "Aaliya Khan",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2015",
         "name": "Danny Siegel",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2015",
         "name": "Aditi Agrawal",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2015",
         "name": "Jaimeson Cortez",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2015",
         "name": "Jason Banks Ergina",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2015",
         "name": "Matt Hezlep",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Devin Murphy",
         "position": "President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2014",
         "name": "Sunny Singh",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Miriam Rodriguez",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Negeen Sadeghi-Mohaved",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Avinoam Baral",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2014",
         "name": "Harwind Lasher",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Conrad Contreras",
         "position": "External Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2014",
         "name": "Aurelia Friedman",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Angel Garfio",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Janay Williams",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Allyson Bach",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2014",
         "name": "Jazz Kiang",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Alex Mercier",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Carlos Quintanilla",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2014",
         "name": "Teri Nguyen",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Winnie Galbadores",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Heather Rosen",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2014",
         "name": "Gabriel Guttierez",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Erineo Garcia",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Kevin Patterson",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Manjot Singh",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2014",
         "name": "Fabienne Roth",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2014",
         "name": "Francesca Rebosura",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Der Xiong",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Sachin Medhekar",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2014",
         "name": "Nihal Satyadev",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2013",
         "name": "Taylor Bazley",
         "position": "President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2013",
         "name": "John Joanino",
         "position": "President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2013",
         "name": "Carly Yoshida",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2013",
         "name": "Avi Oved",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2013",
         "name": "Lana El-Farra",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2013",
         "name": "Nicole Fossier",
         "position": "External Vice President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2013",
         "name": "Maryssa Hall",
         "position": "External Vice President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2013",
         "name": "Uyen Hoang",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2013",
         "name": "Darren Ramalho",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2013",
         "name": "Armen Hadjimanoukian",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2013",
         "name": "Anthony Montaivo",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2013",
         "name": "Brenda Gutierrez",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2013",
         "name": "Lauren Rogers",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2013",
         "name": "Avinoam Baral",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2013",
         "name": "Charmaine Campbell",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2013",
         "name": "Devin Murphy",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2013",
         "name": "Sam Haws",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2013",
         "name": "Lizzy Naameh",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2013",
         "name": "Sunny Singh",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2012",
         "name": "Lana El-Farra",
         "position": "External Vice President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2012",
         "name": "Raquel Saxe",
         "position": "External Vice President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2012",
         "name": "Allyson Taylor",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2012",
         "name": "Taylor Mason",
         "position": "Cultural Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2012",
         "name": "Taylor Bazley",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2012",
         "name": "Sahil Seth",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2011",
         "name": "Matt Spring",
         "position": "President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2011",
         "name": "Emily Resnick",
         "position": "President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2011",
         "name": "Adam Swart",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2011",
         "name": "Daniel Yadegari",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2011",
         "name": "Kristina Sidrak",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2011",
         "name": "Sheena Santamaria",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2011",
         "name": "Joelle Gamble",
         "position": "External Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2011",
         "name": "Ilsa Levine",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2011",
         "name": "Layhearn Tep",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2011",
         "name": "Raquel Saxe",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2011",
         "name": "Matt Abulrach-Macias",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2011",
         "name": "Michael Starr",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2011",
         "name": "Andrea Hester",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2011",
         "name": "Carlos Juarez",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2011",
         "name": "Kinnery Shah",
         "position": "Cultural Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2011",
         "name": "Ashley Cartwright",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2011",
         "name": "David Bocarsly",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2011",
         "name": "Donnaly Natividad",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2011",
         "name": "Daniel Chikanov",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2011",
         "name": "Jason Smith",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2011",
         "name": "Tevita Folau",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2011",
         "name": "Deena Dulgerian",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Luz Maria Kumpel",
         "position": "President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Jasmine Hill",
         "position": "President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2010",
         "name": "Stephanie Lucas",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2010",
         "name": "Ramielyn Millo",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Chris Santos",
         "position": "External Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2010",
         "name": "Anna Alexandroni",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Jason Youdeem",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Suza Khy",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2010",
         "name": "John Christian De Vera",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2010",
         "name": "Carlos Naranjo Jr.",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Sharon Wu",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Rustom Birdle",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2010",
         "name": "Lucy Garcia",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Kinnery Shah",
         "position": "Cultural Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2010",
         "name": "Victor Cordon",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Enemuoh Chiamaka Sandra",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Emily Resnick",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2010",
         "name": "Carl Betzler",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Ralayaan Serang",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Gatsby Miller",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2010",
         "name": "Nora Cisneros",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Matt Spring",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2010",
         "name": "Taylor Braun",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2010",
         "name": "Jose Valenzuela",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2008",
         "name": "Homaira Hosseini",
         "position": "President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2008",
         "name": "Matt Sandler",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2008",
         "name": "Lydia Kim",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2008",
         "name": "Evan Shulman",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2008",
         "name": "Boris Lipkin",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2008",
         "name": "Jeremiah Garcia",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2008",
         "name": "Pardis Farhadian",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2008",
         "name": "Galen Roth",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2008",
         "name": "Elaine Reodica",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2008",
         "name": "Navid Pour-Ghasemi",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2008",
         "name": "Monica Kohles",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2008",
         "name": "Joey Hernandez",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2008",
         "name": "James Birks",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2008",
         "name": "Gilberto Chacon",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2008",
         "name": "Natalie Gonzalez",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2007",
         "name": "Gabe Rose",
         "position": "President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2007",
         "name": "Gregory Cendana",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2007",
         "name": "Dave Valk",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2007",
         "name": "Jose Manaiza",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2007",
         "name": "Jamel Greer",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2007",
         "name": "Dianne Tanjuaquio",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2007",
         "name": "Jeanalee Obergfell",
         "position": "External Vice President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2007",
         "name": "Justin Hotter",
         "position": "External Vice President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2007",
         "name": "Adder Weintraub",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2007",
         "name": "Alexandra Ramos",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2007",
         "name": "Sherlyn Mossahebfar",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2007",
         "name": "Angela Cheung",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2007",
         "name": "Clinton Jang",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2007",
         "name": "Matias Ramos",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2007",
         "name": "Bernice Shaw",
         "position": "Cultural Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2007",
         "name": "Anglie Taneja",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2007",
         "name": "Michelle Lyon",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2007",
         "name": "Christina Colosimo",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2007",
         "name": "Jesse Rogel",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2007",
         "name": "Sanobar Sajan",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2007",
         "name": "Mae Cauguiran",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Marwa Kelsey",
         "position": "President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2006",
         "name": "Lucero Chavez",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Garin Hovannisian",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Troy Isaac",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Gregory Cendana",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2006",
         "name": "Stacy Chang",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "David Lazar",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Tina Park",
         "position": "External Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2006",
         "name": "Sheretta Thomas",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Katie Tokushige",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Nat Schuster",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2006",
         "name": "Jennifer McGee",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Romi Mouhibian",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Brenda Robles",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Shaun Doria",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2006",
         "name": "Joey Ellis",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "P.C. Zai",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2006",
         "name": "Curt Frieden",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Dorothy Kieu Le",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Thomas McKenna",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Ravi Dehar",
         "position": "Campus Events Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2006",
         "name": "Eric Alvarez",
         "position": "Campus Events Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Kyle Hyman",
         "position": "Campus Events Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Tamaron Jeng",
         "position": "Student Welfare Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2006",
         "name": "Casey Henry",
         "position": "Student Welfare Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Samer Araabi",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2006",
         "name": "Joline Price",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2006",
         "name": "Carlos Saucedo",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2006",
         "name": "Christian Bogeberg",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Elias Dabaie",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Antonio Estrada",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Shauna Peterson",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Steve Sandoval",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Rajan Trehan",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2006",
         "name": "Lorena Shakira Zavala",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "Alex Gruenberg",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "Jake Strom",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "Jenny Wood",
         "position": "President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2005",
         "name": "Kristina Doan",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2005",
         "name": "Tommy Tseng",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "Lexi Reid",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "Jesse Melgares",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "Alyssa Campos",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "Jeannie Biniek",
         "position": "External Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2005",
         "name": "Joe Vardner",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2005",
         "name": "Holly LaLuz",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "Peter Bautista",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "Ryan Smeets",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2005",
         "name": "Megan Carney",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "Dorothy Le",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "Brian Neesby",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2005",
         "name": "Marwa Kaisey",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2005",
         "name": "Zoe Loftus-Farren",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2005",
         "name": "P.C. Zai",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2004",
         "name": "Josh Lawson",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Doug Ludlow",
         "position": "President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Arash Mozayan Isfahani",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Allende Palma/Saracho",
         "position": "President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2004",
         "name": "Jonathan Cohen",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Darren Chan",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2004",
         "name": "Genevieve Espinosa",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Mosa Hassani",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Peter Bautista",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Alex Gruenberg",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2004",
         "name": "Shantanu Bhuiyan",
         "position": "Cultural Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2004",
         "name": "Hannah Olade",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Michi Kono",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Brian Neesby",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Jenny Wood",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2004",
         "name": "Andy Green",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Alonso Martin Del Campo",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2004",
         "name": "Tommy Tseng",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2004",
         "name": "Anneli Villarin",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2003",
         "name": "Adam Harmetz",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Andrew LaFlamme",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Anica McKesey",
         "position": "President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2003",
         "name": "Gideon Baum",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Kendar Carney",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Allende Palma/Saracho",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2003",
         "name": "Matt Kaczmarek",
         "position": "External Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2003",
         "name": "David Rodriguez",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Christine Sol",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Christina Paganini",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Sophia Kozak",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2003",
         "name": "Albert Farias",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Sonia Sylls",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Tutram Nguyen",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2003",
         "name": "Erica Husse",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2003",
         "name": "Omar Qudrat",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Marcello Robinson",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Wendy Flores",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Kelly Wynn",
         "position": "Cultural Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2003",
         "name": "Janet Chiang",
         "position": "Student Welfare Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2003",
         "name": "Arvin Abraham",
         "position": "Student Welfare Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Joshua Leu Lawson",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2003",
         "name": "Jenny Galvez",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Amy Lucas",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Nelson Saldana",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2003",
         "name": "Gerardo Ornelas",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Jon English",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Chase Rabenn",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Justin Williams",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2003",
         "name": "Linda Lam",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2002",
         "name": "David Dahle",
         "position": "President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2002",
         "name": "Bryant Tan",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2002",
         "name": "T. J. Cordero",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2002",
         "name": "Justin Levi",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2002",
         "name": "Avneet Kaur",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2002",
         "name": "Christopher Diaz",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2002",
         "name": "Dria Fearn",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2002",
         "name": "Robbie Clark",
         "position": "Cultural Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2002",
         "name": "Luke Patterson",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2002",
         "name": "Adam Harmetz",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2002",
         "name": "Michelle Styczynski",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2002",
         "name": "Allende Palma/Saracho",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2002",
         "name": "Jenny Lam",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2002",
         "name": "Maggy Athatathius",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2001",
         "name": "David Ehrenberg",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2001",
         "name": "Karren Lane",
         "position": "President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2001",
         "name": "Dusan Miletich",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2001",
         "name": "Katheryn Klein",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2001",
         "name": "Bryant Tan",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2001",
         "name": "Jeremy McKenzie",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2001",
         "name": "Narges Pisheh",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2001",
         "name": "Theo Apostol",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2001",
         "name": "Christopher Cheng",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2001",
         "name": "David Dahle",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2001",
         "name": "Cynthia Mosqueda",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2001",
         "name": "Breana Teubner",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2000",
         "name": "Katynja McCory",
         "position": "President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2000",
         "name": "Jason Lautenschleger",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2000",
         "name": "Elizabeth Houston",
         "position": "President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2000",
         "name": "Ramzi Ajami",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2000",
         "name": "Elias Encisco",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2000",
         "name": "John Pham",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2000",
         "name": "Tova Fuller",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2000",
         "name": "RoseAnne Gutierrez",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2000",
         "name": "Ryan Bulatao",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2000",
         "name": "Noah Bookman",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2000",
         "name": "Katrina Eiland",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2000",
         "name": "Bill Elliott",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2000",
         "name": "Cheryl Marie Lott",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2000",
         "name": "Dan Moroaica",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "2000",
         "name": "Elisa Sequeira",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "2000",
         "name": "Kendra Streigler",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1999",
         "name": "Ramon L. Richardson",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1999",
         "name": "Nayon Kang",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1999",
         "name": "Mark Beck-Heyman",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1999",
         "name": "Sophia Paek",
         "position": "External Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1999",
         "name": "Grey Kenneth Frandsen",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1999",
         "name": "Katherine Carrido",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1999",
         "name": "Marykay Y. Tsuji",
         "position": "Cultural Affairs Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1999",
         "name": "Jared Seltzer",
         "position": "Campus Events Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1999",
         "name": "Mike Mintz",
         "position": "Campus Events Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1999",
         "name": "Lindsey Brooks",
         "position": "Student Welfare Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1999",
         "name": "Shahrad M. Behnam",
         "position": "Student Welfare Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1999",
         "name": "Meredith Magner",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1999",
         "name": "Wendy Sanchez",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1999",
         "name": "Katynja McCory",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1999",
         "name": "Chris Cheng",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1999",
         "name": "Adam Rosenthal",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1998",
         "name": "Chris Ihara",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1998",
         "name": "Stacy Hae Lim Lee",
         "position": "President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1998",
         "name": "Ben Geer",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1998",
         "name": "Martin Chippas",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1998",
         "name": "P.J. Gagajena",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1998",
         "name": "Paul C. Mim Mack",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1998",
         "name": "Graciela \"Liz\" Geyer",
         "position": "External Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1998",
         "name": "Daniel B. Rego",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1998",
         "name": "Melissa Flores Bullard",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1998",
         "name": "Marselle Washington",
         "position": "Cultural Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1998",
         "name": "Trinh Huynh",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1998",
         "name": "Telly Tse",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1998",
         "name": "Ryan Ozimek",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1998",
         "name": "Tram Linh Ho",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1998",
         "name": "Douglas Antonio Novoa",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1998",
         "name": "Shayla Kasel",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1998",
         "name": "Marc Olson",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Christopher M. Hecht",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Kandea Mosley",
         "position": "President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1997",
         "name": "Justin Horey",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Benny Jihad Williams, Jr.",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Ben Janda Hofilena",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Justin Sobodash",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Ruben Garcia",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Joe Slone",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Dan Su",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Erin Mills",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Carol Lee",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1997",
         "name": "Devi Elizabeth Lambert",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "James Burkhardt",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Marc Olson",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Stacy Hae Lim Lee",
         "position": "External Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1997",
         "name": "Behnaz Pezeshki",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "David Krinsky",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Darnell Grisby",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1997",
         "name": "Roee Ruttenberg",
         "position": "General Representative",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Jo Anna Ley",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1997",
         "name": "Dean R. Cheley",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Van Johnson",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Parvaz Farnad",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Olin M. Ghosh",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Joe Medico",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1997",
         "name": "Ben Geer",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Jerry Dunn",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Ali Mohempour",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Max Espinoza",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1997",
         "name": "Jamil Jaffer",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Jaime Nack",
         "position": "Cultural Affairs Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Mike Hamilton",
         "position": "Cultural Affairs Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1997",
         "name": "An Le",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1997",
         "name": "J.P. Epstein",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Telly Tse",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Eric D. Shaw",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Robert Urteaga",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Juan Aguirre",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1997",
         "name": "Jake Sexton",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Maoli Yamaguchi",
         "position": "Student Welfare Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1997",
         "name": "Samantha Gilardi",
         "position": "Student Welfare Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1996",
         "name": "John Du",
         "position": "President",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1996",
         "name": "Brad Miller",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1996",
         "name": "J.D. Tovar",
         "position": "President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1996",
         "name": "Mark Bingener",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1996",
         "name": "Milly Diaz",
         "position": "Internal Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1996",
         "name": "Glenn Inanaga",
         "position": "Internal Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1996",
         "name": "Christopher Hecht",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1996",
         "name": "Alberto Retana",
         "position": "External Vice President",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1996",
         "name": "Stanley S. Yen",
         "position": "External Vice President",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1996",
         "name": "Rob Barrett",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1996",
         "name": "Thais Bass",
         "position": "General Representative",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1996",
         "name": "Dora Cervantes",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1996",
         "name": "Michelle Gosom",
         "position": "General Representative",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1996",
         "name": "Ben Hofilena",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1996",
         "name": "Kristen Montet",
         "position": "General Representative",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1996",
         "name": "Max Espinoza",
         "position": "Academic Affairs Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1996",
         "name": "Angela Linares",
         "position": "Academic Affairs Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1996",
         "name": "Eric Shaw",
         "position": "Facilities Commissioner",
         "endorsed": true,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1996",
         "name": "Marisa Powell",
         "position": "Facilities Commissioner",
         "endorsed": false,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     },
     {
         "year": "1996",
         "name": "Richard Pablo Bis",
         "position": "Financial Supports Commissioner",
         "endorsed": false,
-        "won": true,
-        "votePercentage": 0
+        "won": true
     },
     {
         "year": "1996",
         "name": "Brett Bouttier",
         "position": "Financial Supports Commissioner",
         "endorsed": true,
-        "won": false,
-        "votePercentage": 0
+        "won": false
     }
 ]
