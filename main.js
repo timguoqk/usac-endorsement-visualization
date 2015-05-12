@@ -3,11 +3,12 @@ var width, height, svg;
 var x, y, r, cellH, cellPerRow;
 var color = {
     // y-axis?
-    endorsedAndWon: "#fd7400",
-    notEndorsedAndWon: "#ffe11a",
-    endorsedAndLost: "#1f8a70",
-    notEndorsedAndLost: "#004358"
+    endorsedAndWon: '#fd7400',
+    notEndorsedAndWon: '#ffe11a',
+    endorsedAndLost: '#1f8a70',
+    notEndorsedAndLost: '#004358'
 };
+var grayColor = '#807F83';
 var criteria = {};
 var stats, globalSuccessRate = 0.66;
 
@@ -90,7 +91,7 @@ function draw() {
         .attr('data-content', function(d) {
             return d.year + '\n' + d.position + '\n' + d.votePercentage;
         })
-        .attr('fill', '#807F83')
+        .attr('fill', grayColor)
       .transition().delay(300).duration(1000)
         .attr('cx', function(d, i) {
             return x(i%cellPerRow);
@@ -154,11 +155,12 @@ function updateStats() {
 }
 
 function changeToYear() {
-    $('.changeMode .ui.button').removeClass('active');
     if ($('#changeMode-year').hasClass('active')) {
-        drawGray();
+        $('.changeMode .ui.button').removeClass('active');
+        turnGray();
         return;
     }
+    $('.changeMode .ui.button').removeClass('active');
     $('#changeMode-year').addClass('active');
 
     var circles = svg.selectAll('circle');
@@ -187,9 +189,21 @@ function changeToYear() {
             return x(d.x);
         })
         .attr('cy', function(d) { return y(d.year); });
+
+    // Line and area
+    // http://bl.ocks.org/mbostock/3883245
+    // https://github.com/mbostock/d3/wiki/SVG-Shapes#line
+    var line = d3.svg.line()
+        .x(function(d) { return x(d.year); })
+        .y(function(d) { return y(d.close); });
 }
 
 function changeToResult() {
+    if ($('#changeMode-result').hasClass('active')) {
+        $('.changeMode .ui.button').removeClass('active');
+        turnGray();
+        return;
+    }
     $('.changeMode .ui.button').removeClass('active');
     $('#changeMode-result').addClass('active');
     determineSize();
@@ -251,6 +265,14 @@ function fillByResult(d) {
     return d.won ? color.notEndorsedAndWon : color.notEndorsedAndLost;
 }
 
-function drawGrap() {
-    // TODO: NOT IMPLEMENTED YET!
+function turnGray() {
+    determineSize();
+    svg.selectAll('circle').transition().duration(800)
+        .attr('fill', grayColor)
+        .attr('cx', function(d, i) {
+            return x(i%cellPerRow);
+        })
+        .attr('cy', function(d, i) {
+            return y(Math.floor(i/cellPerRow));
+        });
 }
