@@ -2,10 +2,10 @@ var completeData, data;
 var width, height, svg;
 var x, y, r, cellPerRow;
 var color = {
-    endorsedAndWon: '#fd7400',
-    notEndorsedAndWon: '#ffe11a',
-    endorsedAndLost: '#1f8a70',
-    notEndorsedAndLost: '#004358'
+    endorsedAndWon: '#ffe11a',
+    endorsedAndLost: '#fd7400',
+    notEndorsedAndWon: '#004358',
+    notEndorsedAndLost: '#1f8a70',
 };
 var grayColor = '#807F83';
 var criteria = {};
@@ -52,10 +52,6 @@ function resize() {
 
 function determineSize(type) {
     if (type == 'year') {
-        y = d3.scale.ordinal()
-            .domain(d3.range(1998, 2016))
-            .rangeRoundPoints([height - 3*r, 3*r]);
-
         yearStats = {count: {}, wonAndEndorsed: {}, endorsed: {}, percentage: {}};
         for (var i = 0; i < data.length; i ++) {
             if (data[i].year in yearStats.count) {
@@ -77,8 +73,14 @@ function determineSize(type) {
         for (var i = startYear; i <= endYear; i ++)
             yearStats.percentage[i] = yearStats.wonAndEndorsed[i] / yearStats.endorsed[i] * 100;
 
+        var maxNum = 1 + d3.max(Object.keys(yearStats.count).map(function (key) {return yearStats.count[key]}));
+        if (maxNum > 20)
+            r = 2*8/Math.sqrt(maxNum - 20);
+        y = d3.scale.ordinal()
+            .domain(d3.range(1998, 2016))
+            .rangeRoundPoints([height - 3*r, 3*r]);
         x = d3.scale.ordinal()
-            .domain(d3.range(0, 35))  // Max number of candidates/yr
+            .domain(d3.range(0, maxNum))  // Max number of candidates/yr
             .rangeRoundPoints([3*r, width - 3*r]);
     }
     else {
@@ -167,6 +169,7 @@ function changeType(type) {
         redraw(type);
         $('#position-dropdown').removeClass('disabled');
     }
+    redraw(type);
 }
 
 function redraw(type) {
@@ -176,7 +179,8 @@ function redraw(type) {
         circles.transition().duration(800)
             .attr('fill', fillByResult)
             .attr('cx', function(d) { return x(d.x); })
-            .attr('cy', function(d) { return y(d.year); });
+            .attr('cy', function(d) { return y(d.year); })
+            .attr('r', r);
         circles.enter().append('circle')
             .attr('data-title', function(d) { return d.name; })
             .attr('data-content', popUpContent)
@@ -187,19 +191,19 @@ function redraw(type) {
             .attr('cy', function(d) { return y(d.year); })
             .attr('r', r);
         
-        yspData = Object.keys(yearStats.percentage).map(function (key) {return yearStats.percentage[key]});
-        svg.selectAll('rect').remove();
-        svg.selectAll('rect').data(yspData, function(d, i) { return i; }).enter().append('rect')
-            .attr('x', 0)
-            .attr('width', function(d) {
-                return width*d/100;
-            })
-            .attr('y', function(d, i) {
-                return y(i + startYear) - r;
-            })
-            .attr('height', y.range()[0]-y.range()[1])
-            .attr('fill', 'rgba(159, 193, 244, 0.5)')
-            .moveToBack();
+        // yspData = Object.keys(yearStats.percentage).map(function (key) {return yearStats.percentage[key]});
+        // svg.selectAll('rect').remove();
+        // svg.selectAll('rect').data(yspData, function(d, i) { return i; }).enter().append('rect')
+        //     .attr('x', 0)
+        //     .attr('width', function(d) {
+        //         return width*d/100;
+        //     })
+        //     .attr('y', function(d, i) {
+        //         return y(i + startYear) - r;
+        //     })
+        //     .attr('height', y.range()[0]-y.range()[1])
+        //     .attr('fill', 'rgba(159, 193, 244, 0.5)')
+        //     .moveToBack();
     }
     else {
         circles.transition().duration(800)
