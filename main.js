@@ -9,7 +9,7 @@ var color = {
     notEndorsedAndLost: "#004358"
 };
 var criteria = {};
-var globalSuccessRate = 0.66;
+var stats, globalSuccessRate = 0.66;
 
 $(function(){
     $.getJSON('./stats.json', function(res) {
@@ -20,8 +20,6 @@ $(function(){
             return b.endorsed - a.endorsed;
         });
         data = completeData;
-
-        draw();
 
         // Event listener
         d3.select(window).on('resize', resize);
@@ -38,6 +36,9 @@ $(function(){
             redraw();
         }});
         $('.ui.accordion').accordion();
+
+        draw();
+        $('#d3-container circle').popup();
     });
 });
 
@@ -52,12 +53,11 @@ function determineSize() {
     cellH = 10;
     cellPerRow = Math.min(20, data.filter(function(d){return d.won && d.endorsed;}).length);
 
-    // TODO: correct function
     x = d3.scale.ordinal()
-        .domain(d3.range(cellPerRow), 1)
+        .domain(d3.range(cellPerRow))
         .rangeRoundPoints([3*r, width - 3*r]);
     y = d3.scale.ordinal()
-        .domain(d3.range(Math.ceil(data.length/cellPerRow)), 1)
+        .domain(d3.range(Math.ceil(data.length/cellPerRow)))
         .rangeRoundPoints([height - 3*r, 3*r]);
 }
 
@@ -90,11 +90,7 @@ function draw() {
         .attr('data-content', function(d) {
             return d.year + '\n' + d.position + '\n' + d.votePercentage;
         })
-        .attr('fill', function(d) {
-            if (d.endorsed)
-                return d.won ? color.endorsedAndWon : color.endorsedAndLost;
-            return d.won ? color.notEndorsedAndWon : color.notEndorsedAndLost;
-        })
+        .attr('fill', '#807F83')
       .transition().delay(300).duration(1000)
         .attr('cx', function(d, i) {
             return x(i%cellPerRow);
@@ -104,18 +100,29 @@ function draw() {
         })
         .attr('r', r);
 
-    // 66% line
-    svg.append('line')
-        .attr('x1', 2 * r).attr('y1', (1 - globalSuccessRate) * height)
-        .attr('x2', width - 2 * r).attr('y2', (1 - globalSuccessRate) * height)
-        .attr('stroke-width', 2)
-        .attr('stroke-dasharray', '10, 10')
-        .attr('stroke', 'black');
+    // Commented: line is not a good choice
+    // // 66% line
+    // var h100 = height * ((stats.eaw+stats.eal)/100);
+    // var h = globalSuccessRate * h100;
+    // svg.append('line')
+    //     .attr('x1', 3 * r).attr('y1', height - h)
+    //     .attr('x2', width - 2 * r).attr('y2', height - h)
+    //     .attr('stroke-width', 5)
+    //     .attr('stroke-dasharray', '20, 20')
+    //     .attr('stroke-linecap', 'round')
+    //     .attr('stroke', '#fd0400');
+    // svg.append('line')
+    //     .attr('x1', 3 * r).attr('y1', height - h100)
+    //     .attr('x2', width - 2 * r).attr('y2', height - h100)
+    //     .attr('stroke-width', 5)
+    //     .attr('stroke-dasharray', '20, 20')
+    //     .attr('stroke-linecap', 'round')
+    //     .attr('stroke', '#fd7400');
 }
 
 function updateStats() {
     $('#d3-container circle').popup();
-    var stats = data.reduce(function(previousValue, d) {
+    stats = data.reduce(function(previousValue, d) {
         if (d.endorsed) {
             if (d.won)
                 previousValue.eaw += 1;
@@ -149,11 +156,40 @@ function updateStats() {
 function changeToYear() {
     $('.changeMode .ui.button').removeClass('active');
     $('#changeMode-year').addClass('active');
+
+    var circles = svg.selectAll('circle');
+
+    y = d3.scale.ordinal()
+        .domain(d3.range(1998, 2016))
+        .rangeRoundPoints([height - 3*r, 3*r]);
+
+    var yearCount = {};
+    for (var i = 0; i < data.length; i ++) {
+        if (data[i].year in yearCount) {
+            yearCount[data[i].year] += 1;
+            data[i].x = yearCount[data[i].year];
+        }
+        else
+            data[i].x = yearCount[data[i].year] = 0;
+    }
+
+    x = d3.scale.ordinal()
+        .domain(d3.range(0, 35))  // Max number of candidates/yr
+        .rangeRoundPoints([3*r, width - 3*r]);
+
+    svg.selectAll('circle').transition().duration(800)
+        .attr('fill', fillByResult)
+        .attr('cx', function(d) {
+            return x(d.x);
+        })
+        .attr('cy', function(d) { return y(d.year); });
 }
 
 function changeToResult() {
     $('.changeMode .ui.button').removeClass('active');
     $('#changeMode-result').addClass('active');
+    svg.selectAll('circle').transition().duration(800)
+        .attr('fill', fillByResult);
 }
 
 function redraw() {
@@ -195,4 +231,11 @@ function redraw() {
         .remove();
 
     updateStats();
+}
+
+
+function fillByResult(d) {
+    if (d.endorsed)
+        return d.won ? color.endorsedAndWon : color.endorsedAndLost;
+    return d.won ? color.notEndorsedAndWon : color.notEndorsedAndLost;
 }
