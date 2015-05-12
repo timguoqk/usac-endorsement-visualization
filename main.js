@@ -1,6 +1,6 @@
 var completeData, data;
 var width, height, svg;
-var x, y, r, cellH, cellPerRow;
+var x, y, r, cellPerRow;
 var color = {
     // y-axis?
     endorsedAndWon: '#fd7400',
@@ -34,7 +34,8 @@ $(function(){
             else
                 delete criteria[type];
             filter(criteria);
-            redraw();
+            var type = $('#changeType-year').hasClass('active') ? 'year' : 'result';
+            redraw(type);
         }});
         $('.ui.accordion').accordion();
 
@@ -45,37 +46,47 @@ $(function(){
 
 function resize() {
     $('#d3-container').empty();
+    $('.changeMode .ui.button').removeClass('active');
     draw();
 }
 
-function determineSize() {
-    // TODO: non-constant r/h/perRow
-    r = 8;
-    cellH = 10;
-    cellPerRow = Math.min(20, data.filter(function(d){return d.won && d.endorsed;}).length);
+function determineSize(type) {
+    if (type == 'year') {
+        y = d3.scale.ordinal()
+            .domain(d3.range(1998, 2016))
+            .rangeRoundPoints([height - 3*r, 3*r]);
 
-    x = d3.scale.ordinal()
-        .domain(d3.range(cellPerRow))
-        .rangeRoundPoints([3*r, width - 3*r]);
-    y = d3.scale.ordinal()
-        .domain(d3.range(Math.ceil(data.length/cellPerRow)))
-        .rangeRoundPoints([height - 3*r, 3*r]);
-}
+        var yearCount = {};
+        for (var i = 0; i < data.length; i ++) {
+            if (data[i].year in yearCount) {
+                yearCount[data[i].year] += 1;
+                data[i].x = yearCount[data[i].year];
+            }
+            else
+                data[i].x = yearCount[data[i].year] = 0;
+        }
 
-function filter(criteria) {
-    var keys = Object.keys(criteria);
-    data = completeData.filter(function(d){
-        return !keys.some(function(key){
-            // use double negation to handle the case when keys=[]
-            return d[key] != criteria[key];
-        });
-    });
+        x = d3.scale.ordinal()
+            .domain(d3.range(0, 35))  // Max number of candidates/yr
+            .rangeRoundPoints([3*r, width - 3*r]);
+    }
+    else {
+        r = 8;
+        cellPerRow = Math.min(20, data.filter(function(d){return d.won && d.endorsed;}).length);
+
+        x = d3.scale.ordinal()
+            .domain(d3.range(cellPerRow))
+            .rangeRoundPoints([3*r, width - 3*r]);
+        y = d3.scale.ordinal()
+            .domain(d3.range(Math.ceil(data.length/cellPerRow)))
+            .rangeRoundPoints([height - 3*r, 3*r]);
+    }
 }
 
 function draw() {
     width = $('#d3-container').width();
     height = $('#d3-container').height();
-    determineSize();
+    determineSize('result');
 
     svg = d3.select('#d3-container').append('svg')
             .attr('width', width)
@@ -88,9 +99,7 @@ function draw() {
         .attr('cy', function(){return Math.random()*height/2 + height/4;})
         .attr('r', 2)
         .attr('data-title', function(d) { return d.name; })
-        .attr('data-content', function(d) {
-            return d.year + '\n' + d.position + '\n' + d.votePercentage;
-        })
+        .attr('data-content', function(d) { return popUpContent(d); })
         .attr('fill', grayColor)
       .transition().delay(300).duration(1000)
         .attr('cx', function(d, i) {
@@ -100,25 +109,6 @@ function draw() {
             return y(Math.floor(i/cellPerRow));
         })
         .attr('r', r);
-
-    // Commented: line is not a good choice
-    // // 66% line
-    // var h100 = height * ((stats.eaw+stats.eal)/100);
-    // var h = globalSuccessRate * h100;
-    // svg.append('line')
-    //     .attr('x1', 3 * r).attr('y1', height - h)
-    //     .attr('x2', width - 2 * r).attr('y2', height - h)
-    //     .attr('stroke-width', 5)
-    //     .attr('stroke-dasharray', '20, 20')
-    //     .attr('stroke-linecap', 'round')
-    //     .attr('stroke', '#fd0400');
-    // svg.append('line')
-    //     .attr('x1', 3 * r).attr('y1', height - h100)
-    //     .attr('x2', width - 2 * r).attr('y2', height - h100)
-    //     .attr('stroke-width', 5)
-    //     .attr('stroke-dasharray', '20, 20')
-    //     .attr('stroke-linecap', 'round')
-    //     .attr('stroke', '#fd7400');
 }
 
 function updateStats() {
@@ -154,102 +144,69 @@ function updateStats() {
     $('#stat-neal>.value').text(stats.neal + '%');
 }
 
-function changeToYear() {
-    if ($('#changeMode-year').hasClass('active')) {
-        $('.changeMode .ui.button').removeClass('active');
+function changeType(type) {
+    if ($('#changeType-' + type).hasClass('active')) {
+        $('.changeType .ui.button').removeClass('active');
         turnGray();
         return;
     }
-    $('.changeMode .ui.button').removeClass('active');
-    $('#changeMode-year').addClass('active');
-
-    var circles = svg.selectAll('circle');
-
-    y = d3.scale.ordinal()
-        .domain(d3.range(1998, 2016))
-        .rangeRoundPoints([height - 3*r, 3*r]);
-
-    var yearCount = {};
-    for (var i = 0; i < data.length; i ++) {
-        if (data[i].year in yearCount) {
-            yearCount[data[i].year] += 1;
-            data[i].x = yearCount[data[i].year];
-        }
-        else
-            data[i].x = yearCount[data[i].year] = 0;
-    }
-
-    x = d3.scale.ordinal()
-        .domain(d3.range(0, 35))  // Max number of candidates/yr
-        .rangeRoundPoints([3*r, width - 3*r]);
-
-    svg.selectAll('circle').transition().duration(800)
-        .attr('fill', fillByResult)
-        .attr('cx', function(d) {
-            return x(d.x);
-        })
-        .attr('cy', function(d) { return y(d.year); });
-
-    // Line and area
-    // http://bl.ocks.org/mbostock/3883245
-    // https://github.com/mbostock/d3/wiki/SVG-Shapes#line
-    var line = d3.svg.line()
-        .x(function(d) { return x(d.year); })
-        .y(function(d) { return y(d.close); });
+    $('.changeType .ui.button').removeClass('active');
+    $('#changeType-' + type ).addClass('active');
+    redraw(type);
 }
 
-function changeToResult() {
-    if ($('#changeMode-result').hasClass('active')) {
-        $('.changeMode .ui.button').removeClass('active');
-        turnGray();
-        return;
+function redraw(type) {
+    determineSize(type);
+    var circles = svg.selectAll('circle').data(data, function(d) { return d.year + d.name; });
+    if (type == 'year') {
+        circles.transition().duration(800)
+            .attr('fill', fillByResult)
+            .attr('cx', function(d) {
+                return x(d.x);
+            })
+            .attr('cy', function(d) { return y(d.year); });
+        circles.enter().append('circle')
+            .attr('data-title', function(d) { return d.name; })
+            .attr('data-content', popUpContent)
+            .attr('fill', (type == 'result') ? '#ffffff' : grayColor)
+            .transition().duration(800)
+            .attr('fill', fillByResult)
+            .attr('cx', function(d) {
+                return x(d.x);
+            })
+            .attr('cy', function(d) { return y(d.year); })
+            .attr('r', r);
+
+        // Line and area
+        // http://bl.ocks.org/mbostock/3883245
+        // https://github.com/mbostock/d3/wiki/SVG-Shapes#line
+        var line = d3.svg.line()
+            .x(function(d) { return x(d.year); })
+            .y(function(d) { return y(d.close); });
     }
-    $('.changeMode .ui.button').removeClass('active');
-    $('#changeMode-result').addClass('active');
-    determineSize();
-    svg.selectAll('circle').transition().duration(800)
-        .attr('fill', fillByResult)
-        .attr('cx', function(d, i) {
-            return x(i%cellPerRow);
-        })
-        .attr('cy', function(d, i) {
-            return y(Math.floor(i/cellPerRow));
-        });
-}
+    else {
+        circles.transition().duration(800)
+            .attr('cx', function(d, i) {
+                return x(i%cellPerRow);
+            })
+            .attr('cy', function(d, i) {
+                return y(Math.floor(i/cellPerRow));
+            });
 
-function redraw() {
-    determineSize();
-
-    var circles = svg.selectAll('circle')
-        .data(data, function(d) { return d.year + d.name; });
-
-    circles.transition().duration(800)
-        .attr('cx', function(d, i) {
-            return x(i%cellPerRow);
-        })
-        .attr('cy', function(d, i) {
-            return y(Math.floor(i/cellPerRow));
-        });
-
-    circles.enter().append('circle')
-        .attr('data-title', function(d) { return d.name; })
-        .attr('data-content', function(d) {
-            return d.year + '\n' + d.position + '\n' + d.votePercentage;
-        })
-        .attr('fill', '#ffffff')
-        .transition().duration(800)
-        .attr('fill', function(d) {
-            if (d.endorsed)
-                return d.won ? color.endorsedAndWon : color.endorsedAndLost;
-            return d.won ? color.notEndorsedAndWon : color.notEndorsedAndLost;
-        })
-        .attr('r', r)
-        .attr('cx', function(d, i) {
-            return x(i%cellPerRow);
-        })
-        .attr('cy', function(d, i) {
-            return y(Math.floor(i/cellPerRow));
-        });
+        circles.enter().append('circle')
+            .attr('data-title', function(d) { return d.name; })
+            .attr('data-content', popUpContent)
+            .attr('fill', (type == 'result') ? '#ffffff' : grayColor)
+            .transition().duration(800)
+            .attr('fill', fillByResult)
+            .attr('r', r)
+            .attr('cx', function(d, i) {
+                return x(i%cellPerRow);
+            })
+            .attr('cy', function(d, i) {
+                return y(Math.floor(i/cellPerRow));
+            });
+    }
 
     circles.exit().transition().duration(500)
         .style("fill-opacity", 1e-6)
@@ -258,15 +215,8 @@ function redraw() {
     updateStats();
 }
 
-
-function fillByResult(d) {
-    if (d.endorsed)
-        return d.won ? color.endorsedAndWon : color.endorsedAndLost;
-    return d.won ? color.notEndorsedAndWon : color.notEndorsedAndLost;
-}
-
 function turnGray() {
-    determineSize();
+    determineSize('result');
     svg.selectAll('circle').transition().duration(800)
         .attr('fill', grayColor)
         .attr('cx', function(d, i) {
@@ -275,4 +225,24 @@ function turnGray() {
         .attr('cy', function(d, i) {
             return y(Math.floor(i/cellPerRow));
         });
+}
+
+function filter(criteria) {
+    var keys = Object.keys(criteria);
+    data = completeData.filter(function(d){
+        return !keys.some(function(key){
+            // use double negation to handle the case when keys=[]
+            return d[key] != criteria[key];
+        });
+    });
+}
+
+function fillByResult(d) {
+    if (d.endorsed)
+        return d.won ? color.endorsedAndWon : color.endorsedAndLost;
+    return d.won ? color.notEndorsedAndWon : color.notEndorsedAndLost;
+}
+
+function popUpContent(d) {
+    return d.year + '\n' + d.position + '\n' + d.votePercentage;
 }
