@@ -83,7 +83,7 @@ function determineSize(type) {
             .rangeRoundPoints([height - 3*r, 3*r]);
         x = d3.scale.ordinal()
             .domain(d3.range(0, maxNum))  // Max number of candidates/yr
-            .rangeRoundPoints([3*r, width - 25]);
+            .rangeRoundPoints([3*r, width - 25 - 2*r]);
     }
     else {
         r = 8;
@@ -94,7 +94,7 @@ function determineSize(type) {
             .rangeRoundPoints([3*r, width - 3*r]);
         y = d3.scale.ordinal()
             .domain(d3.range(Math.ceil(data.length/cellPerRow)))
-            .rangeRoundPoints([height - 3*r, 3*r]);
+            .rangeRoundPoints([height - 3*r, 25]);
     }
 }
 
@@ -205,18 +205,25 @@ function redraw(type) {
         //     .attr('height', y.range()[0]-y.range()[1])
         //     .attr('fill', 'rgba(159, 193, 244, 0.5)')
         //     .moveToBack();
-        svg.selectAll('text').data(y.domain()).enter()
-            .append('text')
-            .attr('x', width - 25)
+        var text = svg.selectAll('text')
+            .data(y.domain(), function(d) { return d; });
+
+        text.enter().append('text')
             .attr('y', y)
+            .attr('x', width - 5)
             .attr('font-size', 10)
+            .text(function(d) { return d; });
+        text.transition().duration(800)
+            .attr('x', width - 25)
             .attr('fill', function(d) {
                 return 'hsla(177,100%,' + Math.sqrt(yearStats.percentage[d]*20) + '%,1)';
-            })
-            .text(function(d) { return d; });
+            });
+
     }
     else {
-        svg.selectAll('text').transition().style("fill-opacity", 1e-5).remove();
+        svg.selectAll('text').transition()
+            .attr("x", width)
+            .remove();
         circles.transition().duration(800)
             .attr('cx', function(d, i) {
                 return x(i%cellPerRow);
