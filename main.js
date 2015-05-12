@@ -2,7 +2,6 @@ var completeData, data;
 var width, height, svg;
 var x, y, r, cellPerRow;
 var color = {
-    // y-axis?
     endorsedAndWon: '#fd7400',
     notEndorsedAndWon: '#ffe11a',
     endorsedAndLost: '#1f8a70',
@@ -10,7 +9,8 @@ var color = {
 };
 var grayColor = '#807F83';
 var criteria = {};
-var stats, globalSuccessRate = 0.66;
+var stats, yearStats, globalSuccessRate = 0.66;
+var startYear = 1999, endYear = 2015;
 
 $(function(){
     $.getJSON('./stats.json', function(res) {
@@ -56,15 +56,26 @@ function determineSize(type) {
             .domain(d3.range(1998, 2016))
             .rangeRoundPoints([height - 3*r, 3*r]);
 
-        var yearCount = {};
+        yearStats = {count: {}, wonAndEndorsed: {}, endorsed: {}, percentage: {}};
         for (var i = 0; i < data.length; i ++) {
-            if (data[i].year in yearCount) {
-                yearCount[data[i].year] += 1;
-                data[i].x = yearCount[data[i].year];
+            if (data[i].year in yearStats.count) {
+                yearStats.count[data[i].year] += 1;
+                data[i].x = yearStats.count[data[i].year];
             }
-            else
-                data[i].x = yearCount[data[i].year] = 0;
+            else {
+                data[i].x = 0;
+                yearStats.count[data[i].year] = 0;
+                yearStats.wonAndEndorsed[data[i].year] = 0;
+                yearStats.endorsed[data[i].year] = 0;
+            }
+            if (data[i].endorsed) {
+                yearStats.endorsed[data[i].year] += 1;
+                if (data[i].won)
+                    yearStats.wonAndEndorsed[data[i].year] += 1;
+            }
         }
+        for (var i = startYear; i <= endYear; i ++)
+            yearStats.percentage[i] = yearStats.wonAndEndorsed[i] / yearStats.endorsed[i] * 100;
 
         x = d3.scale.ordinal()
             .domain(d3.range(0, 35))  // Max number of candidates/yr
@@ -152,7 +163,7 @@ function changeType(type) {
     }
     else {
         $('.changeType .ui.button').removeClass('active');
-        $('#changeType-' + type ).addClass('active');
+        $('#changeType-' + type).addClass('active');
         redraw(type);
         $('#position-dropdown').removeClass('disabled');
     }
@@ -164,28 +175,31 @@ function redraw(type) {
     if (type == 'year') {
         circles.transition().duration(800)
             .attr('fill', fillByResult)
-            .attr('cx', function(d) {
-                return x(d.x);
-            })
+            .attr('cx', function(d) { return x(d.x); })
             .attr('cy', function(d) { return y(d.year); });
         circles.enter().append('circle')
             .attr('data-title', function(d) { return d.name; })
             .attr('data-content', popUpContent)
-            .attr('fill', (type == 'result') ? '#ffffff' : grayColor)
+            .attr('fill', '#ffffff')
             .transition().duration(800)
             .attr('fill', fillByResult)
-            .attr('cx', function(d) {
-                return x(d.x);
-            })
+            .attr('cx', function(d) { return x(d.x); })
             .attr('cy', function(d) { return y(d.year); })
             .attr('r', r);
-
-        // Line and area
-        // http://bl.ocks.org/mbostock/3883245
-        // https://github.com/mbostock/d3/wiki/SVG-Shapes#line
-        var line = d3.svg.line()
-            .x(function(d) { return x(d.year); })
-            .y(function(d) { return y(d.close); });
+        
+        yspData = Object.keys(yearStats.percentage).map(function (key) {return yearStats.percentage[key]});
+        svg.selectAll('rect').remove();
+        svg.selectAll('rect').data(yspData, function(d, i) { return i; }).enter().append('rect')
+            .attr('x', 0)
+            .attr('width', function(d) {
+                return width*d/100;
+            })
+            .attr('y', function(d, i) {
+                return y(i + startYear) - r;
+            })
+            .attr('height', y.range()[0]-y.range()[1])
+            .attr('fill', 'rgba(159, 193, 244, 0.5)')
+            .moveToBack();
     }
     else {
         circles.transition().duration(800)
@@ -250,3 +264,12 @@ function fillByResult(d) {
 function popUpContent(d) {
     return d.year + '\n' + d.position + '\n' + d.votePercentage;
 }
+
+d3.selection.prototype.moveToBack = function() { 
+    return this.each(function() { 
+        var firstChild = this.parentNode.firstChild; 
+        if (firstChild) { 
+            this.parentNode.insertBefore(this, firstChild); 
+        } 
+    }); 
+};
