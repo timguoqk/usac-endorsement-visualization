@@ -155,6 +155,10 @@ function updateStats() {
 
 function changeToYear() {
     $('.changeMode .ui.button').removeClass('active');
+    if ($('#changeMode-year').hasClass('active')) {
+        drawGray();
+        return;
+    }
     $('#changeMode-year').addClass('active');
 
     var circles = svg.selectAll('circle');
@@ -188,8 +192,15 @@ function changeToYear() {
 function changeToResult() {
     $('.changeMode .ui.button').removeClass('active');
     $('#changeMode-result').addClass('active');
+    determineSize();
     svg.selectAll('circle').transition().duration(800)
-        .attr('fill', fillByResult);
+        .attr('fill', fillByResult)
+        .attr('cx', function(d, i) {
+            return x(i%cellPerRow);
+        })
+        .attr('cy', function(d, i) {
+            return y(Math.floor(i/cellPerRow));
+        });
 }
 
 function redraw() {
@@ -238,4 +249,8 @@ function fillByResult(d) {
     if (d.endorsed)
         return d.won ? color.endorsedAndWon : color.endorsedAndLost;
     return d.won ? color.notEndorsedAndWon : color.notEndorsedAndLost;
+}
+
+function drawGrap() {
+    // TODO: NOT IMPLEMENTED YET!
 }
