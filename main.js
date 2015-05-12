@@ -148,11 +148,14 @@ function changeType(type) {
     if ($('#changeType-' + type).hasClass('active')) {
         $('.changeType .ui.button').removeClass('active');
         turnGray();
-        return;
+        $('#position-dropdown').addClass('disabled');
     }
-    $('.changeType .ui.button').removeClass('active');
-    $('#changeType-' + type ).addClass('active');
-    redraw(type);
+    else {
+        $('.changeType .ui.button').removeClass('active');
+        $('#changeType-' + type ).addClass('active');
+        redraw(type);
+        $('#position-dropdown').removeClass('disabled');
+    }
 }
 
 function redraw(type) {
@@ -191,12 +194,13 @@ function redraw(type) {
             })
             .attr('cy', function(d, i) {
                 return y(Math.floor(i/cellPerRow));
-            });
+            })
+            .attr('fill', fillByResult);
 
         circles.enter().append('circle')
             .attr('data-title', function(d) { return d.name; })
             .attr('data-content', popUpContent)
-            .attr('fill', (type == 'result') ? '#ffffff' : grayColor)
+            .attr('fill', '#ffffff')
             .transition().duration(800)
             .attr('fill', fillByResult)
             .attr('r', r)
