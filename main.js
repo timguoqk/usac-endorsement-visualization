@@ -76,6 +76,8 @@ function determineSize(type) {
         var maxNum = 1 + d3.max(Object.keys(yearStats.count).map(function (key) {return yearStats.count[key]}));
         if (maxNum > 20)
             r = 2*8/Math.sqrt(maxNum - 20);
+        else
+            r = 8;
         y = d3.scale.ordinal()
             .domain(d3.range(1998, 2016))
             .rangeRoundPoints([height - 3*r, 3*r]);
@@ -169,7 +171,6 @@ function changeType(type) {
         redraw(type);
         $('#position-dropdown').removeClass('disabled');
     }
-    redraw(type);
 }
 
 function redraw(type) {
@@ -213,6 +214,7 @@ function redraw(type) {
             .attr('cy', function(d, i) {
                 return y(Math.floor(i/cellPerRow));
             })
+            .attr('r', r)
             .attr('fill', fillByResult);
 
         circles.enter().append('circle')
