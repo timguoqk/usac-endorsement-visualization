@@ -46,7 +46,7 @@ $(function(){
 
 function resize() {
     $('#d3-container').empty();
-    $('.changeMode .ui.button').removeClass('active');
+    $('.changeType .ui.button').removeClass('active');
     draw();
 }
 
@@ -83,7 +83,7 @@ function determineSize(type) {
             .rangeRoundPoints([height - 3*r, 3*r]);
         x = d3.scale.ordinal()
             .domain(d3.range(0, maxNum))  // Max number of candidates/yr
-            .rangeRoundPoints([3*r, width - 3*r]);
+            .rangeRoundPoints([3*r, width - 25]);
     }
     else {
         r = 8;
@@ -149,9 +149,9 @@ function updateStats() {
     // Percentage for success predictions / total predictions
     var successPercentage = Math.ceil(stats.eaw/(stats.eaw+stats.eal)*100);
     // set the bar manually to avoid animation
-    $('#success-progress>.bar').css("width", successPercentage + "%")
-        .css("background-color", "hsla(177,100%," + Math.sqrt(successPercentage*20) + "%,1)");
-    $('#success-progress>.label').text(successPercentage + "% of Daily Bruin endorsed candidates won");
+    $('#success-progress>.bar').css('width', successPercentage + '%')
+        .css('background-color', 'hsla(177,100%,' + Math.sqrt(successPercentage*20) + '%,1)');
+    $('#success-progress>.label').text(successPercentage + '% of Daily Bruin endorsed candidates won');
 
     $('#stat-eaw>.value').text(stats.eaw + '%');
     $('#stat-eal>.value').text(stats.eal + '%');
@@ -205,8 +205,18 @@ function redraw(type) {
         //     .attr('height', y.range()[0]-y.range()[1])
         //     .attr('fill', 'rgba(159, 193, 244, 0.5)')
         //     .moveToBack();
+        svg.selectAll('text').data(y.domain()).enter()
+            .append('text')
+            .attr('x', width - 25)
+            .attr('y', y)
+            .attr('font-size', 10)
+            .attr('fill', function(d) {
+                return 'hsla(177,100%,' + Math.sqrt(yearStats.percentage[d]*20) + '%,1)';
+            })
+            .text(function(d) { return d; });
     }
     else {
+        svg.selectAll('text').transition().style("fill-opacity", 1e-5).remove();
         circles.transition().duration(800)
             .attr('cx', function(d, i) {
                 return x(i%cellPerRow);
@@ -268,7 +278,7 @@ function fillByResult(d) {
 }
 
 function popUpContent(d) {
-    return d.year + '\n' + d.position + '\n' + d.votePercentage;
+    return d.year + '\n' + d.position;
 }
 
 d3.selection.prototype.moveToBack = function() { 
