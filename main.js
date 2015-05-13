@@ -3,9 +3,9 @@ var width, height, svg;
 var x, y, r, cellPerRow;
 var color = {
     endorsedAndWon: '#ffe11a',
-    endorsedAndLost: '#fd7400',
+    endorsedAndLost: '#807F83',
     notEndorsedAndWon: '#004358',
-    notEndorsedAndLost: '#807F83',
+    notEndorsedAndLost: '#fd7400',
 };
 var grayColor = '#807F83';
 var criteria = {};
