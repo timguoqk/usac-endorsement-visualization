@@ -10,7 +10,7 @@ var color = {
 var grayColor = '#807F83';
 var criteria = {};
 var stats, yearStats, globalSuccessRate = 0.66;
-var startYear = 1996, endYear = 2015;
+var startYear = 1986, endYear = 2015;
 
 $(function(){
     $.getJSON('./stats.json', function(res) {
@@ -147,10 +147,14 @@ function updateStats() {
 
     // Percentage for success predictions / total predictions
     var successPercentage = Math.ceil(stats.eaw/(stats.eaw+stats.eal)*100);
+    $('.total').text(data.length + " candidates shown");
+    var eawtotal = Math.floor(stats.eaw * data.length / 100);
+    var etotal = Math.floor(stats.eaw * data.length / 100) + Math.floor(stats.eal * data.length / 100);
     // set the bar manually to avoid animation
     $('#success-progress>.bar').css('width', successPercentage + '%')
         .css('background-color', 'hsla(177,100%,' + Math.sqrt(successPercentage*20) + '%,1)');
-    $('#success-progress>.label').text(successPercentage + '% of Daily Bruin endorsed candidates won');
+    $('#success-progress>.label').html('<p>' + successPercentage + '% of Daily Bruin endorsed candidates won </br> ('+
+                eawtotal +' endorsed and won candidates divided by '+etotal+' total endorsed) </p>');
 
     $('#stat-eaw>.value').text(stats.eaw + '%');
     $('#stat-eal>.value').text(stats.eal + '%');
