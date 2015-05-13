@@ -13,19 +13,19 @@
 		<div class="seven wide column" id="info-container">
 			<h1>Daily Bruin USAC endorsement</h1>
 			<div class="ui statistics">
-				<div class="yellow statistic" id="stat-eaw">
+				<div class="statistic" id="stat-eaw">
 					<div class="value">27</div>
 					<div class="label">endorsed and won</div>
 				</div>
-				<div class="red statistic" id="stat-eal">
+				<div class="statistic" id="stat-eal">
 					<div class="value">27</div>
 					<div class="label">endorsed and lost</div>
 				</div>
-				<div class="teal statistic" id="stat-neaw">
+				<div class="statistic" id="stat-neaw">
 					<div class="value">27</div>
 					<div class="label">not endorsed and won</div>
 				</div>
-				<div class="green statistic" id="stat-neal">
+				<div class="statistic" id="stat-neal">
 					<div class="value">27</div>
 					<div class="label">not endorsed and lost</div>
 				</div>
@@ -35,29 +35,33 @@
 				<div class="label"></div>
 			</div>
 			<div class="ui large buttons changeType">
-				<div class="ui button" id="changeType-year" onclick="changeType('year')">By year</div>
+				<p>Choose a way to organize the data:</p>
+				<div class="ui blue button" id="changeType-year" onclick="changeType('year')">By year</div>
 				<div class="or"></div>
-				<div class="ui button" id="changeType-result" onclick="changeType('result')">By result</div>
+				<div class="ui yellow button" id="changeType-result" onclick="changeType('result')">By result</div>
 			</div>
-			<div class="ui teal floating disabled dropdown labeled button" id="position-dropdown" data-type="position">
-				<i class="suitcase icon"></i>
-				<div class="text">Position</div>
-				<i class="dropdown icon"></i>
-				<div class="menu">
-					<div class="item">All</div>
-					<div class="item">President</div>
-					<div class="item">Internal Vice President</div>
-					<div class="item">External Vice President</div>
-					<div class="item">Academic Affairs Commissioner</div>
-					<div class="item">Financial Supports Commissioner</div>
-					<div class="item">General Representative</div>
-					<div class="item">Facilities Commissioner</div>
-					<div class="item">Cultural Affairs Commissioner</div>
-					<div class="item">Campus Events Commissioner</div>
-					<div class="item">Student Welfare Commissioner</div>
-					<div class="item">General Representatives</div>
+			<div class="row">
+				<div class="ui teal floating disabled dropdown labeled button" id="position-dropdown" data-type="position">
+					<i class="suitcase icon"></i>
+					<div class="text">Position</div>
+					<i class="dropdown icon"></i>
+					<div class="menu">
+						<div class="item">All</div>
+						<div class="item">President</div>
+						<div class="item">Internal Vice President</div>
+						<div class="item">External Vice President</div>
+						<div class="item">Academic Affairs Commissioner</div>
+						<div class="item">Financial Supports Commissioner</div>
+						<div class="item">General Representative</div>
+						<div class="item">Facilities Commissioner</div>
+						<div class="item">Cultural Affairs Commissioner</div>
+						<div class="item">Campus Events Commissioner</div>
+						<div class="item">Student Welfare Commissioner</div>
+						<div class="item">General Representatives</div>
+					</div>
 				</div>
 			</div>
+			
 		</div>
 	</div>
 	<div class="footer">

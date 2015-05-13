@@ -5,7 +5,7 @@ var color = {
     endorsedAndWon: '#ffe11a',
     endorsedAndLost: '#fd7400',
     notEndorsedAndWon: '#004358',
-    notEndorsedAndLost: '#1f8a70',
+    notEndorsedAndLost: '#807F83',
 };
 var grayColor = '#807F83';
 var criteria = {};
@@ -82,7 +82,7 @@ function determineSize(type) {
             .rangeRoundPoints([height - 3*r, 3*r]);
         x = d3.scale.ordinal()
             .domain(d3.range(0, maxNum))  // Max number of candidates/yr
-            .rangeRoundPoints([3*r, width - 25 - 2*r]);
+            .rangeRoundPoints([3*r, width - 26 - 2*r]);
     }
     else {
         r = 8;
@@ -210,12 +210,12 @@ function redraw(type) {
         text.enter().append('text')
             .attr('y', y)
             .attr('x', width - 5)
-            .attr('font-size', 10)
+            .attr('font-size', 11)
             .text(function(d) { return d; });
         text.transition().duration(800)
-            .attr('x', width - 25)
+            .attr('x', width - 26)
             .attr('fill', function(d) {
-                return 'hsla(177,100%,' + Math.sqrt(yearStats.percentage[d]*20) + '%,1)';
+                return 'hsla(177,100%,' + Math.sqrt(yearStats.percentage[d]*18) + '%,1)';
             });
 
     }
@@ -257,6 +257,9 @@ function redraw(type) {
 
 function turnGray() {
     determineSize('result');
+    svg.selectAll('text').transition()
+            .attr("x", width)
+            .remove();
     svg.selectAll('circle').transition().duration(800)
         .attr('fill', grayColor)
         .attr('cx', function(d, i) {
@@ -264,7 +267,8 @@ function turnGray() {
         })
         .attr('cy', function(d, i) {
             return y(Math.floor(i/cellPerRow));
-        });
+        })
+        .attr('r', r);
 }
 
 function filter(criteria) {

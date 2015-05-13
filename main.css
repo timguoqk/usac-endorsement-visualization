@@ -13,3 +13,26 @@
 #explanations {
 	margin-top: 20px;
 }
+
+#position-dropdown {
+	margin-top: 20px;
+	width: 300px;
+	/*white-space: nowrap;*/
+	/*overflow: hidden;*/
+}
+
+#stat-eaw>.value {
+	color: #ffe11a;
+}
+
+#stat-eal>.value {
+	color: #fd7400;
+}
+
+#stat-neaw>.value {
+	color: #004358;
+}
+
+#stat-neal>.value {
+	color: #807F83;
+}
