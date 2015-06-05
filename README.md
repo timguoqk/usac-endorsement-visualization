@@ -1,0 +1,2 @@
+A visualization of the *correlation* between Daily Bruin endorsement and winning USAC election for contested positions.
+Published in [the_stack](http://stack.dailybruin.com/post/daily-bruin-usac-endorsement-vs-election-results-for-contested-positions/) of the Daily Bruin.
