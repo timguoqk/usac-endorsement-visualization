@@ -11,7 +11,8 @@
 	<div class="ui stackable grid" id="container">
 		<div class="nine wide column" id="d3-container"></div>
 		<div class="seven wide column" id="info-container">
-			<h1>Daily Bruin USAC endorsement</h1>
+			<h1>Daily Bruin USAC endorsement vs election results for contested positions</h1>
+			<p class="total"></p>
 			<div class="ui statistics">
 				<div class="statistic" id="stat-eaw">
 					<div class="value">27</div>
@@ -36,9 +37,9 @@
 			</div>
 			<div class="ui large buttons changeType">
 				<p>Choose a way to organize the data:</p>
-				<div class="ui blue button" id="changeType-year" onclick="changeType('year')">By year</div>
-				<div class="or"></div>
 				<div class="ui yellow button" id="changeType-result" onclick="changeType('result')">By result</div>
+				<div class="or"></div>
+				<div class="ui blue button" id="changeType-year" onclick="changeType('year')">By year</div>
 			</div>
 			<div class="row">
 				<div class="ui teal floating disabled dropdown labeled button" id="position-dropdown" data-type="position">
@@ -57,14 +58,15 @@
 						<div class="item">Cultural Affairs Commissioner</div>
 						<div class="item">Campus Events Commissioner</div>
 						<div class="item">Student Welfare Commissioner</div>
-						<div class="item">General Representatives</div>
 					</div>
 				</div>
 			</div>
-			
+			<h3>Notes on data:</h3>
+			<p >The years 2009 and 1992 have no data. 2009 has no data because the editorial board decided not to endorse candidates that year. 1992 has no data because it is missing from the Daily Bruin's archives.</p>
+			<p><a href="https://docs.google.com/spreadsheets/d/1aQLmaEXESo17dzU_zr0ThV_ws-LpViZrJHTyxkF8G8g/edit?usp=sharing">Find all data used on this public Google Spreadsheet.</a></p>
 		</div>
 	</div>
 	<div class="footer">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<p>Graphic by Tim Guo/Daily Bruin developer</p>
 	</div>
 </body>
